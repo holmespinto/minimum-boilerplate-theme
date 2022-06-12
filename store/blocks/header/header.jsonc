@@ -1,0 +1,54 @@
+{
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "header desktop",
+    "children": [
+      "header-row#header__top",
+      "header-row#header__search_middle"
+      //"header-row#header__middle"
+    ]
+  },
+  "header-layout.mobile": {
+    "title": "header mobile",
+    "children": [
+      "header-row#header__top",
+      "header-row#header__search_middle"
+      //"header-row#header__middle"
+    ]
+  },
+  "header-row#header__top": {
+    "children": [
+      
+      /*"logo#header__top--logo",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart.v2",
+      "modal-trigger#header__top--logins",
+      */
+      //"tab-layout#home"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "header-row#header__search_middle":{
+    "title":"Header search",
+    "children": [
+       
+    ]   
+  }
+  /*
+   "search-bar#header_search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  }
+*/
+}

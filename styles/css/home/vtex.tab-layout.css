@@ -1,0 +1,7 @@
+.listContainer{
+    background-color:rgb(255, 255, 255);
+}
+:global(.vtex-button)  {
+    background-color: #f7115d !important;
+}
+

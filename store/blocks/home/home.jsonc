@@ -1,0 +1,10 @@
+{
+  "store.home": {
+    "blocks": [
+      
+      "tab-layout#home"
+      //"modal-trigger#home_modal--event"
+    ]
+  }
+  
+}

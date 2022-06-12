@@ -1,0 +1,65 @@
+{
+
+  "slider-layout#home__slider--children": {
+        "title": "Slider con hijos declarados",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "blockClass": "home_slider",
+          "autoplay": {
+            "timeout": 2999,
+            "stopOnHo": true
+          },
+          "fullWidth": false
+          
+        },
+        "children": [
+          "flex-layout.row#home__slider",
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three"
+        ]
+      },
+    
+      "flex-layout.row#home__slider": {
+        "children": [
+          "flex-layout.col#home__slider--zero"
+        ]
+      },
+    
+      "flex-layout.col#home__slider--zero": {
+        "children": [
+          "image#home__slider--zero",
+          "rich-text#test"
+        ]
+      },
+      "image#home__slider--zero": {
+        "props": {
+          "src": "assets/img/main-slide-0.jpg"
+        }
+      },
+      "rich-text#test": {
+        "props": {
+          "text": "error: App build failed with message: Error resolving block store.product:I couldn't find a block product-reviews.You need to declare it or depend on an app that declares it.error: I couldn't find an interface slider-layout.row. You need to declare it or depend on an app that declares it. This error may be caused by a change in behavior resolving blocks from indirect app dependencies."
+        }
+      },
+      "image#home__slider--one": {
+        "props": {
+          "src": "assets/img/main-slide-1.jpg"
+        }
+      },
+      "image#home__slider--two": {
+        "props": {
+          "src": "assets/img/main-slide-2.jpg"
+        }
+      },
+      "image#home__slider--three": {
+        "props": {
+          "src": "assets/img/main-slide-3.jpg"
+        }
+      }   
+}

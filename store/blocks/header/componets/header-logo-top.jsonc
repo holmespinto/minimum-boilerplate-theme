@@ -1,0 +1,10 @@
+{
+    "logo#header__top--logo": {
+        "title":"Logo Header",
+        "props":{
+         "url":"assets/img/vtex-white-logo.svg",
+         "width": "132px",
+         "href":"/"
+        }
+       }   
+}

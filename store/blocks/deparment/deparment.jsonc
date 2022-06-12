@@ -1,0 +1,44 @@
+{
+    "store.search#department": {
+        "blocks": ["search-result-layout#department"]
+      },  
+      "search-result-layout#department":{
+        "blocks": [
+          "search-result-layout.desktop",
+          "search-result-layout.mobile",
+          "search-not-found-layout"
+        ]
+      },
+      "search-result-layout.desktop":{
+        "children":["flex-layout.row#department__breadcrumbs"]
+      },
+      "flex-layout.row#department__breadcrumbs":{
+        "children":["flex-layout.col#department-desktop__breadcrumbs"
+            //,"flex-layout.col#department-desktop__result"
+        ] 
+      },
+      "flex-layout.col#department-desktop__breadcrumbs":{
+        "children":["breadcrumb.search"] 
+      } 
+      /*
+      "flex-layout.col#departmen,t-desktop__result":{
+        "title":"search result",
+        "children":["gallery-layout-switcher"] 
+      },  
+   
+      "flex-layout.col#department-desktop__result":{
+        "title":"search result",
+        "children":["gallery-layout-switcher"] 
+      },
+      "gallery-layout-switcher":{
+        "children":["gallery-layout-option#grid_one_column",
+            "gallery-layout-option#grid_two_column"] 
+      },
+      "gallery-layout-option#grid_one_column":{
+        "props":{"name":"grid-one-column","blockClass":"grid_selector--one-column"}
+      },
+      "gallery-layout-option#grid_two_column":{
+        "props":{"name":"grid-two-column","blockClass":"grid_selector--two-column"}
+      }
+     */
+}
