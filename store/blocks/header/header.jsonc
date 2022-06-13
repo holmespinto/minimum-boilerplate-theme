@@ -40,7 +40,7 @@
   "header-row#header__search_middle": {
     "title": "Header search",
     "children": [
-      "search-result-layout.customQuery#home__search"
+      
     ]
   },
   "search-bar": {

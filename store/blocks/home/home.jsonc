@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__section--one",
       "slider-layout#home__slider--children"
       //"tab-layout#home"
