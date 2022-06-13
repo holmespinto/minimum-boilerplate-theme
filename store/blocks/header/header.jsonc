@@ -23,32 +23,33 @@
   },
   "header-row#header__top": {
     "children": [
-      
-      /*"logo#header__top--logo",
+      "logo#header__top--logo",
+      "header-spacer",
+      "drawer#header__mobile--menu",
       "header-spacer",
       "search-bar",
       "header-spacer",
       "minicart.v2",
-      "modal-trigger#header__top--logins",
-      */
+      "modal-trigger#header__top--logins"
       //"tab-layout#home"
     ],
     "props": {
       "blockClass": "header__top"
     }
   },
-  "header-row#header__search_middle":{
-    "title":"Header search",
+  "header-row#header__search_middle": {
+    "title": "Header search",
     "children": [
-       
-    ]   
-  }
-  /*
-   "search-bar#header_search": {
-    "blocks": ["autocomplete-result-list.v2"],
+      "search-result-layout.customQuery#home__search"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props": {
       "openAutocompleteOnFocus": true
     }
   }
-*/
+
 }

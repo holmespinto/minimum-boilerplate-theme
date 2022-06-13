@@ -59,8 +59,8 @@
             "tab-list.item#home--2",
             "tab-list.item#home--3",
             "tab-list.item#home--4",
-            "tab-list.item#home--5",
-            "tab-list.item#home--6"
+            "tab-list.item#home--5"
+            //"tab-list.item#home--6"
         ]
     },
     "tab-list.item#home--1": {
@@ -102,7 +102,7 @@
             "label": "Icons",
             "blockClass": "tabslist"
         }
-    },
+    }/*,
     "tab-list.item#home--6": {
         "title": "Tab para compras",
         "props": {
@@ -110,15 +110,16 @@
             "label": "Compras",
             "blockClass": "tabslist"
         }
-    },    
+    }*/,  
+      
     "tab-content#home": {
         "children": [
             "tab-content.item#home--1",
             "tab-content.item#home--2",
             "tab-content.item#home--3",
             "tab-content.item#home--4",
-            "tab-content.item#home--5",
-            "tab-content.item#home--6"
+            "tab-content.item#home--5"
+            //"tab-content.item#home--6"
         ]
     },
     "tab-content.item#home--1": {
@@ -143,7 +144,7 @@
     "tab-content.item#home--4": {
         "children": ["modal-trigger#home_modal--children"],
         "props": {
-            "tabId": "4"
+            "bId": "4"
         }
     },
     "tab-content.item#home--5": {
@@ -151,11 +152,13 @@
         "props": {
             "tabId": "5"
         }
-    },
+    }/*,
+    
     "tab-content.item#home--6": {
         "children": ["flex-layout.row#home__section--one"],
         "props": {
             "tabId": "6"
         }
-    }        
+    } 
+    */       
 }

@@ -8,15 +8,16 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop",
+      //"search-result-layout.desktop",
       "search-result-layout.mobile"
     ]
-  },
+  }/*,
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread"
     ]
   },
+  */,
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchbread"
@@ -29,7 +30,7 @@
   },
   "flex-layout.col#searchbread__result": {
     "children": [
-      "search-bar",
+      //"search-bar",
       "search-result"
     ]
   },
