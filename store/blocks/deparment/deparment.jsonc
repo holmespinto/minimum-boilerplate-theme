@@ -86,7 +86,7 @@
       }
     }
   },
-  "product-summary.shelf": {
+  "product-summary.shelf#search": {
     "children": [
       "product-summary-image",
       "product-summary-name",
