@@ -18,14 +18,14 @@
     "children": [
       "social-networks",
       "accepted-payment-methods",
-      "menu#header__menu"
+      "menu#footer__menu"
     ]
   },
   "flex-layout.row#footer-mobile": {
     "children": [
       "social-networks",
       "accepted-payment-methods",
-      "menu#header__menu"
+      "menu#footer__menu"
     ]
   },
   "social-networks": {

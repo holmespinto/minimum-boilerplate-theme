@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLEL",
         "simulationBehavior": "default"
       }
     }

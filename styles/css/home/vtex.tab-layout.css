@@ -2,6 +2,7 @@
     background-color:rgb(255, 255, 255);
 }
 :global(.vtex-button)  {
-    background-color: #f7115d !important;
+    background-color: #e7e2e4 !important;
+    color:rgb(243, 78, 12);
 }
 

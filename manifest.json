@@ -69,7 +69,8 @@
     "vtex.search-page-context": "0.x",
     "vtex.blog-interfaces": "0.x",
     "vtex.product-list-context": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

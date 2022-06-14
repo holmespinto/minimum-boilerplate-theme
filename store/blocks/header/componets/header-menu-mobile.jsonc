@@ -14,8 +14,9 @@
   },
   "menu#header__menu": {
     "children": [
-      "menu-item#department__one"
-      ,"menu-item#department__two"
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three"
     ],
     "props": {
       "orientation": "vertical"
@@ -157,5 +158,45 @@
         "text": "Uruguay"
       }
     }
-  }
+  } 
+  ,"menu-item#department__three": {
+    "props": {
+      "id": "department-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://developers.vtex.com/",
+        "noFollow": false,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks":["submenu.accordion#department__three"]
+  },
+  "submenu.accordion#department__three":{
+    "children": [
+      "menu#department__three"
+    ]
+  },
+  "menu#department__three":{
+    "children": [
+      "menu-item#category__t1"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }   
+  },
+  "menu-item#category__t1": {
+    "props": {
+      "id": "category-3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-nosotros",
+        "noFollow": false,
+        "tagTitle": "Acerca de...",
+        "text": "Acerca de..."
+      }
+    }
+  } 
 }

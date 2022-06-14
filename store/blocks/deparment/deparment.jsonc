@@ -89,9 +89,23 @@
   "product-summary.shelf#search": {
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-name#product",
       "product-summary-space",
-      "product-summary-column#1"
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+      //"product-summary-column#1"
     ]
+  },
+  "product-summary-name#product":{
+    "props":{
+      "tag":"h3"
+    }
+  }, 
+  "product-summary-sku-selector":{
+    "props":{
+      "hideImpossibleConvinations":false,
+      "visibility":"more tha one"
+    }
   }
 }
