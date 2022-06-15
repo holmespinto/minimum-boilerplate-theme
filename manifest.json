@@ -1,5 +1,5 @@
 {
-  "vendor": "vuitg",
+  "vendor": "itgloberspartnercl",
   "name": "store-theme",
   "version": "0.0.1",
   "builders": {
@@ -70,7 +70,8 @@
     "vtex.blog-interfaces": "0.x",
     "vtex.product-list-context": "0.x",
     "vtex.product-price": "1.x",
-    "vtex.wish-list": "1.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "vtex.store-link": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

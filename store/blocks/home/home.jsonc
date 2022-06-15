@@ -2,11 +2,17 @@
   "store.home": {
     "blocks": [
       "search-result-layout.customQuery#home__search",
-      //"flex-layout.row#home__section--one",
-     // "slider-layout#home__slider--children",
+      "whatsapp-button",
+      // "slider-layout#home__slider--children",
       "tab-layout#home"
       //"modal-trigger#home_modal--event"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "212598-65565-25555",
+      "message": "Hola escribo desde el templete"
+    }
   }
-  
 }
