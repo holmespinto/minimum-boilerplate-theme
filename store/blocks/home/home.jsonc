@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "search-result-layout.customQuery#home__search",
-      "whatsapp-button",
+      "whatsapp-button", 
       // "slider-layout#home__slider--children",
       "tab-layout#home"
       //"modal-trigger#home_modal--event"
@@ -12,7 +12,10 @@
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
       "phone": "212598-65565-25555",
-      "message": "Hola escribo desde el templete"
+      "message": "Envie un mensaje",
+      "companyName": "ITGlobers"
+      
     }
+    
   }
 }

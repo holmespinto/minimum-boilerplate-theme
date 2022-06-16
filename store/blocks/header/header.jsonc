@@ -27,7 +27,7 @@
       "header-spacer",
       "drawer#header__mobile--menu",
       "header-spacer",
-      "search-bar",
+      "department-shearch",
       "header-spacer",
       "minicart.v2",
       "modal-trigger#header__top--logins"
