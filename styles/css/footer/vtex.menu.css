@@ -1,0 +1,13 @@
+.styledLinkContent--link-footer{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  white-space: unset;
+}
+
+@media screen and (min-width: 768px) {
+  .styledLinkContainer--link-footer {
+    margin: 0;
+    font-size: 12px;
+  }
+}

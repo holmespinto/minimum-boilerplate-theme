@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#global__header-nanobar": {
+    "title": "Header nanobar",
+    "children": ["rich-text#nanobar-text"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header-nanobar-container"
+    }
+  },
+  "rich-text#nanobar-text": {
+    "props": {
+      "text": "Estás en la tienda online de: HOLMES ELIAS PINTO AVILA >",
+      "blockClass": "header-nanobar-text"
+    }
+  }
+}
+
+
+

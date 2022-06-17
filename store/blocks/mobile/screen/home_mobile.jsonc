@@ -1,0 +1,12 @@
+{
+  "responsive-layout.mobile": {
+      "children": ["rich-text#mobile__title", "list-context.image-list#global__banner-slider"]
+  },
+  "rich-text#mobile__title": {
+    "props": {
+      "text": "# This will only show up on mobile.",
+      "blockClass": "mobile__title"
+    }
+  }
+}
+  

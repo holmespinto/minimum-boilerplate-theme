@@ -1,0 +1,17 @@
+{
+  "responsive-layout.desktop": {
+    "children": [
+      "rich-text#desktop__title",
+      "list-context.image-list#global__banner-slider"
+      //"flex-layout.row#global__product-slider--content",
+      //"shelf.relatedProducts#global__product-related"
+    ]
+  },
+  "rich-text#desktop__title": {
+    "props": {
+      "text": "# This will only show up on desktop.",
+      "blockClass": "desktop__title"
+    }
+  }
+}
+  

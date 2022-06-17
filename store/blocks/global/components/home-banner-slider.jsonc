@@ -1,0 +1,95 @@
+{
+  "list-context.image-list#global__banner-slider": {
+    "title": "List Image Slider Home",
+    "children": [
+      "slider-layout#global__banner-slider--content"
+    ],
+    "props": {
+      "preload": false,
+      "images": [
+        {
+          "image": "assets/img/home/banner_navidad_desktop.jpg",
+          "mobileImage": "assets/img/home/banner_navidad_phone.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%",
+          "link": {
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/home/banner_cinnamon_desktop.jpg",
+          "mobileImage": "assets/img/home/banner_cinnamon_phone.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%",
+          "link": {
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/home/banner_kit_desktop.jpg",
+          "mobileImage": "assets/img/home/banner_kit_phone.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%",
+          "link": {
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/home/banner_200_desktop.jpg",
+          "mobileImage": "assets/img/home/banner_200_phone.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%",
+          "link": {
+            "url":"/"
+          }
+        },
+        {
+          "image": "assets/img/home/banner_fragancias_desktop.jpg",
+          "mobileImage": "assets/img/home/banner_fragancias_phone.jpg",
+          "maxHeight": "100%",
+          "height": "100%",
+          "width": "100%",
+          "maxWidth": "100%",
+          "link": {
+            "url":"/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#global__banner-slider--content": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "slideTransition": {
+        "speed": 600,
+        "delay": 0,
+        "timing": "ease-out"
+      },
+      "autoplay": {
+        "timeout": 4500,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "banner-slider__content",
+        "banner-slider"
+      ]
+    }
+  }
+}

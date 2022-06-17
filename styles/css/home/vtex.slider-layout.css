@@ -1,3 +1,126 @@
-.paginationDotsContainer--home_slider{
-    transform:translateY(30px);
+.imageElementLink--banner-slider__content {
+  width: 100%;
+}
+
+.paginationDotsContainer--banner-slider__content {
+  bottom: 30px;
+}
+
+.paginationDot--banner-slider__content {
+  height          : 4px !important;
+  width           : 62px !important;
+  border-radius   : 0;
+  background-color: #ffffff;
+  padding         : 0;
+}
+
+.paginationDot--banner-slider__esika--isActive {
+  background-color: #db3b30;
+}
+
+.paginationDot--banner-slider__lbel--isActive {
+  background-color: #2e1a47 ;
+}
+
+.paginationDot--banner-slider__cyzone--isActive {
+  background-color: #a90061;
+}
+
+/* summary  */
+
+
+
+.sliderLeftArrow--content__context--slider {
+  left         : 0;
+  width        : 48px;
+  height       : 48px;
+  text-align   : center;
+  background   : #ffffff !important;
+  border-radius: 50%;
+  top          : 60%;
+}
+
+.sliderRightArrow--content__context--slider {
+  left         : 70px;
+  width        : 48px;
+  height       : 48px;
+  text-align   : center;
+  background   : #ffffff !important;
+  border-radius: 50%;
+  top          : 60%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .sliderTrack--content__context--slider {
+    gap: 0;
+  }
+
+  .sliderLayoutContainer--content__context--slider {
+    display       : flex;
+    flex-direction: column;
+    padding       : 0;
+  }
+
+
+
+  /* .slide--content__context--slider {
+    margin: 0 5px !important;
+    width : calc(6.66667% + 37px) !important;
+  } */
+
+  .sliderTrackContainer--content__context--slider::before {
+    content: "";
+  }
+
+  .sliderTrackContainer--content__context--slider {
+    margin-left: 0;
+  }
+
+  .sliderLeftArrow--content__context--slider,
+  .sliderRightArrow--content__context--slider {
+    display: none;
+  }
+}
+
+/* RECOMENDADOS PARA TI */
+
+
+.sliderLayoutContainer--slider-recomendados{
+  margin-top: 10vh;
+}
+
+.slide--slider-recomendados{
+  width: 4.5%!important;
+}
+
+@media screen and (max-width:800px) {
+
+  .caretIcon--slider-recomendados{
+    width: 70%;
+  }
+
+  .sliderLeftArrow--slider-recomendados{
+    margin-left: -1.5vw;
+  }
+
+  .sliderRightArrow--slider-recomendados{
+    margin-right: -1.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sliderLeftArrow--slider-recomendados,
+  .sliderRightArrow--slider-recomendados{
+    margin: 0
+  }
+
+  .sliderLeftArrow--slider-recomendados{
+    margin-left: -1vw;
+  }
+
+  .sliderRightArrow--slider-recomendados{
+    margin-right: -1vw;
+  }
 }

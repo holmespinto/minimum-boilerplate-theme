@@ -1,0 +1,157 @@
+.biggy-autocomplete-wrapper {
+    width: 100vw;
+  }
+  
+  .biggy-autocomplete {
+    position     : sticky;
+    left         : 0;
+    top          : 150px;
+    box-shadow   : 0 10px 7px rgb(0 0 0 / 20%);
+    padding      : 40px;
+    padding-left : 15%;
+    padding-right: 15%;
+    margin-left  : -50%;
+    margin-right : -50%;
+    padding-top  : 15px;
+    margin-top   : 10px;
+  }
+  
+  .biggy-js-container--hidden {
+    display: none;
+  }
+  
+  .itemList--suggestion {
+    max-width: 295px;
+  }
+  
+  .itemListTitle {
+    font-family   : flatline;
+    font-size     : 20px;
+    line-height   : 28px;
+    font-weight   : 700;
+    text-transform: capitalize;
+  }
+  
+  .itemListItem {
+    font-family   : brownstd;
+    font-size     : 16px;
+    line-height   : 22px;
+    font-weight   : 400;
+    position      : relative;
+    text-transform: capitalize;
+  }
+  
+  .itemListItem .itemListPrefix {
+    display: none;
+  }
+  
+  .tileList {
+    padding-left: 20px;
+  }
+  
+  .tileListTitle {
+    font-family   : flatline;
+    font-size     : 20px;
+    line-height   : 28px;
+    font-weight   : 700;
+    text-transform: capitalize;
+  }
+  
+  .tileListItem {
+    margin-right: 20px;
+  }
+  
+  .tileListItem :global(.vtex-product-summary-2-x-productBrand),
+  .tileListItem .productBrand {
+    font-family: brownstd;
+    font-size  : 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color      : #000000;
+  }
+  
+  .tileListItem :global(.vtex-product-summary-2-x-nameContainer) {
+    padding: 0;
+  }
+  
+  .tileListItem :global(.vtex-product-summary-2-x-buyButtonContainer),
+  .tileListItem :global(.vtex-product-summary-2-x-price_listPriceContainer),
+  .tileListItem :global(.vtex-product-summary-2-x-price_sellingPriceLabel),
+  .tileListItem :global(.vtex-product-summary-2-x-price_installmentContainer),
+  .tileListItem .listPrice {
+    display: none;
+  }
+  
+  .tileListItem :global(.vtex-product-summary-2-x-currencyContainer),
+  .tileListItem .currencyContainer {
+    font-family: brownstd;
+    font-weight: 700;
+    font-size  : 14px;
+    line-height: 20px;
+    color      : #000000;
+  }
+  
+  .tileListSeeMore {
+    font-family: brownstd;
+    font-weight: 700;
+    font-size  : 14px;
+    line-height: 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .biggy-autocomplete-wrapper {
+      width: 50vw;
+    }
+  
+    .biggy-autocomplete {
+      padding     : 16px;
+      position    : absolute;
+      top         : 0;
+      width       : 100vw;
+      left        : -100%;
+      margin-left : auto;
+      margin-right: auto;
+    }
+  
+    .tileList {
+      padding: 0;
+      border : none;
+    }
+  }
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .itemListTitle {
+    font-family: freigbigproboo;
+    font-size  : 22px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .itemListItem {
+    font-family: gotham-book;
+    font-size  : 16px;
+    line-height: 22px;
+  }
+  
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .tileListTitle {
+    font-family: freigbigproboo;
+    font-size  : 22px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) :global(.vtex-product-summary-2-x-productBrand),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .productBrand {
+    font-family: freigbigproboo;
+    font-size  : 18px;
+    line-height: 26px;
+  }
+  
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) :global(.vtex-product-summary-2-x-currencyContainer),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .currencyContainer {
+    font-family: gotham-bold;
+    font-weight: bold;
+  }
+  
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--global__search-bar) .tileListSeeMore {
+    font-family: gotham-bold;
+    font-weight: bold;
+  }
