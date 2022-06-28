@@ -1,0 +1,25 @@
+{
+    /*
+        "custom-grid":{
+        "title": "Global Custom Grid",
+        "children": ["rich-text#custom-grid-1",
+        "rich-text#custom-grid-2",
+        "rich-text#custom-grid-3"]
+        },
+        "rich-text#custom-grid-1":{
+            "props":{
+             "text": "Grillad 1"       
+            }
+        },
+        "rich-text#custom-grid-2":{
+            "props":{
+             "text": "Grillad 2"       
+            }
+        },
+        "rich-text#custom-grid-3":{
+            "props":{
+             "text": "Grillad 3"       
+            }
+        }   
+        */
+}

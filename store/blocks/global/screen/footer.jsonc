@@ -1,38 +1,19 @@
 {
-    "footer": {
-      "title": "Footer Container",
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-    },
-    "footer-layout.desktop": {
-      "children": [
-        "flex-layout.row#global__footer--title"
-        //"flex-layout.row#desktop__footer-content--one",
-        //"flex-layout.row#desktop__footer-content--two"
-      ]
-    },
-    "footer-layout.mobile": {
-      "children": [
-        "flex-layout.row#global__footer--title",
-        "flex-layout.row#global__footer-social"
-
-      ]
-    },
-    "flex-layout.row#global__footer--title": {
-      "props":{
-        "blockClass": "global__footer--title"
-      },
-      "children": [
-        "rich-text#global__footer--text"
-      ]
-    },
-    "rich-text#global__footer--text": {
-      "title": "Footer text",
-      "props": {
-        "blockClass": "global__footer--text",
-        "text": "haz **[aquí](https://cdn.tiendabelcorp.com/codigos/nso_092021.pdf)** para conocer los códigos de notificación sanitaria obligatoria de nuestros productos \n\n *según RM No 474-2020-MINSA*",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    }
+  
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
   }
+ 
+
+}
   

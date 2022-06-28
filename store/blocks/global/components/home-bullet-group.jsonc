@@ -1,0 +1,54 @@
+{
+    "list-context.bullet-group#global__bullets-slider": {
+        "title": "Lista de bullers",
+        "children":["slider-layout#bullet-group"],
+        "props": {
+          "bullets":[
+            {
+            "image": "assets/img/bullets/pc.jpg",
+            "titleBullet": "Computadores",
+            "link":{
+                "url":"/"
+            }
+          },
+          {
+            "image": "assets/img/bullets/baterias.jpg",
+            "titleBullet": "Baterias",
+            "link":{
+                "url":"/"
+            }
+          },
+          {
+            "image": "assets/img/bullets/memorias.jpg",
+            "titleBullet": "Memorias",
+            "link":{
+                "url":"/"
+            }
+          },
+          {
+            "image": "assets/img/bullets/teclado.jpg",
+            "titleBullet": "Teclados",
+            "link":{
+                "url":"/"
+            }
+          },
+          {
+            "image": "assets/img/bullets/bluetooth.jpg",
+            "titleBullet": "Bluetooth",
+            "link":{
+                "url":"/"
+            }
+          }       
+        ]
+        }
+      },
+      "slider-layout#bullet-group":{
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 4
+          }
+      }
+    }
+}

@@ -1,45 +1,27 @@
 {
-    "flex-layout.row#global__footer-social": {
-      "title": "Global Footer Social networks",
-      "props": {
-        "blockClass": "footer-social",
-        "preserveLayoutOnMobile": "true"
-        // "colGap": 1
-      },
-      "children": [
-        "rich-text#footer-social--facebook",
-        "rich-text#footer-social--instagram",
-        "rich-text#footer-social--youtube"
-      ]
-    },
-  
-    "rich-text#footer-social--facebook": {
-      "title": "Footer social facebook",
-      "props": {
-        "blockClass": "social-networks-facebook",
-        "text": "[![facebook](assets/img/facebook.svg)](https://www.facebook.com)",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-  
-    "rich-text#footer-social--instagram": {
-      "title": "Footer social instagram",
-      "props": {
-        "blockClass": "social-networks-instagram",
-        "text": "[![instagram](assets/img/instagram.svg)](https://www.instagram.com)",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    },
-  
-    "rich-text#footer-social--youtube": {
-      "title": "Footer social youtube",
-      "props": {
-        "blockClass": "social-networks-youtube",
-        "text": "[![youtube](assets/img/youtube.svg)](https://www.youtube.com)",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-    }
+  "flex-layout.row#footer-desktop": {
+  "children": [
+    "social-networks",
+    "accepted-payment-methods"
+  ]
+},
+"flex-layout.row#footer-mobile": {
+  "children": [
+    "social-networks",
+    "accepted-payment-methods"
+  ]
+},
+"social-networks": {
+  "props": {
+    "socialNetworks": [
+      { "url": "https://facebook.com/foo", "name": "Facebook" },
+      { "url": "https://twitter.com/foo", "name": "Twitter" }
+    ]
   }
+},
+"accepted-payment-methods": {
+  "props": {
+    "paymentMethods": ["mastercard", "visa", "diners club"]
+  }
+}
+}

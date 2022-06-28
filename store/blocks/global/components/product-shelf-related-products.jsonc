@@ -1,5 +1,6 @@
 {
   "shelf.relatedProducts#global__product-related":{
+    "title": "List of Product global container in the home",
     "blocks": ["product-summary.shelf#global__product-shelf-most-viewed"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -29,6 +30,7 @@
       "product-summary-space",
       "product-rating-inline",
       "product-price-suspense#global__product-summary--price"
+      //,"add-to-cart-info"
     ],
     "props": {
       "priceBehavior": "async",

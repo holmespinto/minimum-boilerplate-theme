@@ -1,17 +1,26 @@
 {
   "responsive-layout.desktop": {
+    "title": "Content search result Desktop",
     "children": [
-      "rich-text#desktop__title",
-      "list-context.image-list#global__banner-slider"
-      //"flex-layout.row#global__product-slider--content",
-      //"shelf.relatedProducts#global__product-related"
+      "flex-layout.row#global__button--whatsapp",
+      //"flex-layout.row#desktop__title",
+      "list-context.image-list#global__banner-slider",
+      "list-context.bullet-group#global__bullets-slider",
+      "flex-layout.row#global__product-slider--content",
+      "shelf.relatedProducts#global__product-related"
     ]
+  }
+  /*,
+  "flex-layout.row#desktop__title": {
+    "children": ["rich-text#desktop__title"]
   },
   "rich-text#desktop__title": {
     "props": {
-      "text": "# This will only show up on desktop.",
+      "text": "# Usted esta en modo desktop.",
       "blockClass": "desktop__title"
     }
   }
-}
+  */
   
+
+}

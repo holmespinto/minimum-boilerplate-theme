@@ -69,7 +69,7 @@
   "slider-layout#global__banner-slider--content": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 1,
         "tablet": 1,
         "phone": 1
       },

@@ -1,0 +1,16 @@
+.flexRow--button__whatsapp {
+    position:fixed;
+    width:90px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:transparent;
+    color:rgb(133, 127, 127);
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+:global(.vtex-button){
+    color:rgb(184, 12, 12); 
+}

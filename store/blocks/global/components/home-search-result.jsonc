@@ -35,7 +35,7 @@
   "slider-layout#content__context--slider": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 2,
         "phone": 2
       },
@@ -59,7 +59,7 @@
       "product-summary-space",
       "product-rating-inline",
       "product-price-suspense#global__product-summary--price",
-      "add-to-cart-button#global__product-summary--button"
+      "flex-layout.row#global__product-add-to-cart"
     ],
     "props": {
       "priceBehavior": "async",
@@ -73,12 +73,11 @@
       "product-selling-price"
     ]
   },
-
-  "add-to-cart-button#global__product-summary--button":{
-    "props":{
-      /* "text":"Agregar a la bolsa" */
-    }
-  }
+  "flex-layout.row#global__product-add-to-cart": {
+    "children": [
+      "add-to-cart-button"
+    ]
+  } 
 }
 
     

@@ -1,7 +1,8 @@
 {
     
 "store.search#department" : {
-    "blocks": ["search-result-layout#department"],
+  "title": "Department Container Result",  
+  "blocks": ["search-result-layout#department"],
     "props":{
       "context":{
         "skusFilter":"FIRST_AVAILABLE",
@@ -13,7 +14,7 @@
   "search-result-layout#department":{
     "blocks":[
        "search-result-layout.desktop#department",
-        //"search-result-layout.mobile#department",
+        "search-result-layout.mobile#department",
         "search-not-found-layout"
     ]
   }

@@ -1,0 +1,8 @@
+{
+    "icon#home_orders--icons": {
+        "props": {
+            "id": "mpa-list-items",
+            "size": 20
+        }
+    }
+}

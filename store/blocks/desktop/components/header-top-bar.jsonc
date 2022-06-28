@@ -1,0 +1,269 @@
+{
+  "flex-layout.row#desktop__header-topbar": {
+    "title": "Header top bar",
+    "children": [
+      "flex-layout.row#desktop__header-topbar--logo",
+      "flex-layout.row#desktop__header-topbar--seccion-button",
+      "flex-layout.row#desktop__header-topbar--search-departmants",
+      "flex-layout.row#desktop__header-topbar--minicart"
+    ]
+  },
+  "flex-layout.row#desktop__header-topbar--logo": {
+    "title": "Logo top bar",
+    "children": ["flex-layout.col#desktop__header-topbar--logo"
+
+    ],
+    "props": {
+      "blockClass": "desktop__container",
+      "horizontalAlign": "left",
+      "width": "15%"
+    }
+  },
+  "flex-layout.col#desktop__header-topbar--logo": {
+    "children": [
+      "logo#desktop__header--logo"
+    ]
+  },
+  "logo#desktop__header--logo": {
+    "title": "Logo Header",
+    "props": {
+      "url": "assets/img/vtex-white-logo.svg",
+      "width": "132px",
+      "href": "/"
+    }
+  },
+  "flex-layout.row#desktop__header-topbar--seccion-button": {
+    "title": "Seccion top bar Buttons",
+    "children": [
+      "flex-layout.col#desktop__header-topbar--quick-order",
+      "flex-layout.col#desktop__header-topbar--button-pdf"
+
+    ]
+  },
+  "flex-layout.col#desktop__header-topbar--quick-order": {
+    "title": "Seccion quick-order",
+    "children": ["modal-trigger#desktop__seccion--quick-order"],
+    "props": {
+      "horizontalAlign": "left"
+    }
+  },
+  "modal-trigger#desktop__seccion--quick-order": {
+    "children": [
+      "flex-layout.col#desktop__quick-order--title",
+      "modal-layout#desktop__header-content"
+    ]
+  },
+  "flex-layout.col#desktop__quick-order--title": {
+    "children": [
+      "rich-text#desktop__header-title"
+    ]
+  },
+  "rich-text#desktop__header-title": {
+    "props": {
+      "text": "Compra Rápida",
+      "blockClass": "header__title_btn"
+    }
+  },
+  "modal-layout#desktop__header-content": {
+    "children": [
+      "quick-order"
+    ]
+  },
+  "flex-layout.col#desktop__header-topbar--button-pdf": {
+    "children": [
+      "modal-trigger#desktop__header-button-pdf"
+    ],
+    "props": {
+
+      "horizontalAlign": "left"
+    }
+  },
+  "modal-trigger#desktop__header-button-pdf": {
+    "children": [
+      "flex-layout.col#desktop__seccion--pdf-title",
+      "modal-layout#desktop__header-content-pdf"
+
+    ]
+  },
+  "flex-layout.col#desktop__seccion--pdf-title": {
+    "children": [
+      "rich-text#desktop__header-title-pdf"
+    ]
+  },
+  "rich-text#desktop__header-title-pdf": {
+    "props": {
+      "text": "Imprimir pdf",
+      "blockClass": "header__title_btn"
+    }
+  },
+  "modal-layout#desktop__header-content-pdf": {
+    "title": "Header Pdf Reader",
+    "children": [
+      "pdf-reader"
+    ]
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/props.pdf",
+      "width": "900",
+      "height": "600"
+    }
+  },
+
+  "flex-layout.row#desktop__header-topbar--search-departmants": {
+    "title": "Search  in the header for select departmants",
+    "children": ["flex-layout.row#global__department-shearch"],
+    "props": {
+      "blockClass": "header__search",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#desktop__header-quick-order": {
+    "children": [
+      "search-result-layout.desktop#department"
+    ],
+    "props": {
+      "marginLeft": "1"
+    }
+  },
+
+
+  "flex-layout.row#desktop__header-topbar--minicart": {
+    "title": "Minicart in the header",
+    "children": [
+      "flex-layout.col#desktop__header--login",
+      "flex-layout.col#desktop__header--minicart"
+
+    ],
+    "props": {
+      "blockClass": "desktop__container",
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#desktop__header--login": {
+    "children": [
+      "login#desktop"
+    ]
+  },
+  "flex-layout.col#desktop__header--minicart": {
+    "children": [
+      "minicart.v2#desktop"
+    ]
+  },
+
+  "login#desktop": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "minicart.v2#desktop": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon"
+    },
+    "children": [
+      "minicart-base-content#desktop__header-topbar"
+    ]
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 24
+    }
+  },
+  "minicart-base-content#desktop__header-topbar": {
+    "blocks": [
+      "minicart-empty-state"
+    ],
+    "children": [
+      "minicart-product-list#desktop__header-topbar",
+      "flex-layout.row#minicart-footer#desktop__header-topbar"
+    ]
+  },
+  "flex-layout.row#minicart-footer#desktop__header-topbar": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": [
+      "flex-layout.col#minicart-footer#desktop__header-topbar"
+    ]
+  },
+  "flex-layout.col#minicart-footer#desktop__header-topbar": {
+    "children": [
+      "minicart-summary#desktop__header",
+      "minicart-checkout-button#desktop__header"
+    ]
+  },
+  "minicart-product-list#desktop__header-topbar": {
+    "blocks": [
+      "product-list#desktop__header-minicart"
+    ]
+  },
+  "product-list#desktop__header-minicart": {
+    "blocks": [
+      "product-list-content-mobile"
+    ]
+  },
+  "minicart-summary#desktop__header": {
+    "blocks": [
+      "checkout-summary.compact#minicart"
+    ]
+  },
+  "minicart-checkout-button#desktop__header": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+  "checkout-summary.compact#minicart": {
+    "children": [
+      "summary-totalizers#desktop__header--minicart"
+    ],
+    "props": {
+      "totalizersToShow": [
+        "Items",
+        "Discounts"
+      ]
+    }
+  },
+  "summary-totalizers#desktop__header--minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": [
+      "flex-layout.row#empty-state"
+    ]
+  },
+  "flex-layout.row#empty-state": {
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Hola, su carrito esta vacio!"
+    }
+  }
+}

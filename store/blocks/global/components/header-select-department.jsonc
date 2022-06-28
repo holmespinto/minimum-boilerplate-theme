@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#global__department-shearch": {
+    "title": "Select search department",
+    "children": ["department-shearch"]
+  },
+  "department-shearch": {
+    "props": {
+      "classeName": "select__department"
+
+    }
+  }
+
+}

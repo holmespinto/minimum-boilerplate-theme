@@ -1,6 +1,7 @@
 {
   
     "store.product": {
+      "title": "Store Container Product",
       "children": [
         "flex-layout.row#product-breadcrumb",
         "flex-layout.row#product-main",
@@ -95,6 +96,7 @@
         "product-selling-price",
         "product-summary-sku-selector",
         "add-to-cart-button"
+        //,"add-to-cart-info"
         //"product-summary-column#1"
       ]
     },
