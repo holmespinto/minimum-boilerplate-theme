@@ -1,5 +1,6 @@
 {
-    "flex-layout.row#global__button--whatsapp":{
+
+  "flex-layout.row#global__button--whatsapp":{
     "title": "Global Button whatsapp",
     "children": ["whatsapp-button"],
     "props":{"blockClass": "button__whatsapp"}
@@ -8,11 +9,11 @@
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
       "phone": "3162789497",
-      "companyName": "ITGlobers",
-      "message": "",
-      "width": "80px",
-      "height": "80px"
+      "message": "ITGlobers",
+      "width": 40,
+      "height": 40
       
     }
   }
+
 }

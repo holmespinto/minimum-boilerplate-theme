@@ -1,5 +1,120 @@
 {
-   
-  } 
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLEL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout#global-search-result"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#global-search-result": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#search",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#search": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": { 
+    "children": [ 
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#filter": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": { 
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": { 
+    "blocks": ["gallery#search", "not-found"]
+  },
+  "gallery#search": {
+    "blocks": ["product-summary.shelf#search"]
+  }
+} 
   
   

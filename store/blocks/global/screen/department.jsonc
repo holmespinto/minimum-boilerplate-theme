@@ -1,6 +1,6 @@
 {
     
-"store.search#department" : {
+"store.search#global__department" : {
   "title": "Department Container Result",  
   "blocks": ["search-result-layout#department"],
     "props":{

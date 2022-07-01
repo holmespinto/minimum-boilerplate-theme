@@ -1,0 +1,217 @@
+{
+    "drawer#global__header--menu": {
+      "title": "Menu principal",
+      "children": ["menu#header__menu"],
+      "blocks": ["drawer-trigger"]
+    },
+    "drawer-trigger": {
+      "children": ["rich-text#menu"]
+    },
+    "rich-text#menu": {
+      "props": {
+        "text": "Menú",
+        "blockClass": "header__title_btn"
+      }
+    },
+    "menu#header__menu": {
+      "children": [
+        "menu-item#department__one",
+        "menu-item#department__two",
+        "menu-item#department__three"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+  
+    "menu-item#department__one": {
+      "props": {
+        "id": "department-one",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://developers.vtex.com/",
+          "noFollow": false,
+          "tagTitle": "Developers North America",
+          "text": "Developers North America"
+        }
+      },
+      "blocks":["submenu.accordion#department__one"]
+    },
+    "submenu.accordion#department__one":{
+      "children": [
+        "menu#department__one"
+      ]
+    },
+    "menu#department__one":{
+      "children": [
+        "menu-item#category__n1",
+        "menu-item#category__n2"
+      ],
+       "props": {
+        "orientation": "vertical"
+      }  
+    },
+      "menu-item#category__n1": {
+      "props": {
+        "id": "category-1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "Canada",
+          "text": "Canada"
+        }
+      }
+    },
+    "menu-item#category__n2": {
+      "props": {
+        "id": "category-2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "California State",
+          "text": "California State"
+        }
+      }
+    },
+    "menu-item#department__two": {
+      "props": {
+        "id": "department-two",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://developers.vtex.com/",
+          "noFollow": false,
+          "tagTitle": "Developers Sur America",
+          "text": "Developers Sur America"
+        }
+      },
+      "blocks":["submenu.accordion#department__two"]
+    },
+    "submenu.accordion#department__two":{
+      "children": [
+        "menu#department__two"
+      ]
+    },
+    "menu#department__two":{
+      "children": [
+        "menu-item#category__s1",
+        "menu-item#category__s2",
+        "menu-item#category__s3",
+        "menu-item#category__s4"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }   
+    },
+      "menu-item#category__s1": {
+      "props": {
+        "id": "category-1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "Colombia",
+          "text": "Colombia"
+        }
+      }
+    },
+    "menu-item#category__s2": {
+      "props": {
+        "id": "category-2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "Peru",
+          "text": "Peru"
+        }
+      }
+    },
+    "menu-item#category__s3": {
+      "props": {
+        "id": "category-3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "Chile",
+          "text": "Chile"
+        }
+      }
+    },
+    "menu-item#category__s4": {
+      "props": {
+        "id": "category-4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://vtex.com/co-es/",
+          "noFollow": false,
+          "tagTitle": "Uruguay",
+          "text": "Uruguay"
+        }
+      }
+    } 
+    ,"menu-item#department__three": {
+      "props": {
+        "id": "department-three",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://developers.vtex.com/",
+          "noFollow": false,
+          "tagTitle": "Ejemplos",
+          "text": "Ejemplos"
+        }
+      },
+      "blocks":["submenu.accordion#department__three"]
+    },
+    "submenu.accordion#department__three":{
+      "children": [
+        "menu#department__three"
+      ]
+    },
+    "menu#department__three":{
+      "children": [
+        "menu-item#category__t1",
+         "menu-item#category__t2"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }   
+    },
+    "menu-item#category__t1": {
+      "props": {
+        "id": "category-3",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/sobre-nosotros",
+          "noFollow": false,
+          "tagTitle": "Tab de ejemplos",
+          "text": "Tab de ejemplos"
+        }
+      }
+    },
+     "menu-item#category__t2": {
+      "props": {
+        "id": "category-3",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/custom-grid",
+          "noFollow": false,
+          "tagTitle": "Custom Grid",
+          "text": "Custom Grid"
+        }
+      }
+    } 
+  }

@@ -1,0 +1,77 @@
+{
+
+  "store.custom#custom-grid": {
+    "blocks": ["flex-layout.row#custom-grid"]
+  },
+"flex-layout.row#custom-grid": {
+ "children": [
+  "custom-grid"
+ ]
+},
+  "custom-grid":{
+    "title": "Global Custom Grid",
+    "children": [
+    "flex-layout.row#custom-grid-1",
+    "rich-text#custom-grid-2",
+    "flex-layout.row#custom-grid-3",
+    "rich-text#custom-grid-4" 
+  ]
+    },
+    "flex-layout.row#custom-grid-1":{
+      "children":[
+        "info-card#custom-grid-1"
+      ],  
+        "props":{
+         "text": "Grillad 1"       
+        }
+    },
+    "rich-text#custom-grid-2":{
+        "props":{
+         "text": "Grillad 2"       
+        }
+    },
+    "flex-layout.row#custom-grid-3":{
+
+        "children":[
+          "flex-layout.col#custom-grid-3"
+        ]     
+        
+    },
+    "flex-layout.col#custom-grid-3":{
+
+      "children":[
+        "rich-text#custom-grid-3",
+         "image#custom-grid-3"
+      ]     
+      
+  },
+    "rich-text#custom-grid-3":{
+        "props":{
+         "text": "Grillad 3"       
+        }
+    },
+ "image#custom-grid-3": {
+   "props": {
+     "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+     "maxHeight": "600px"
+   }
+ },
+ "rich-text#custom-grid-4":{
+     "props":{
+      "text": "Grillad 4"       
+     }
+ },
+  "info-card#custom-grid-1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Ejemplo de información de tarjetas",
+      "callToActionText": "Ver contenido",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+}
+}

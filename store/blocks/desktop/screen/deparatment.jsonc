@@ -61,6 +61,8 @@
      // "product-separator",
      "modal-trigger#search-product-summary",
       "add-to-cart-button"
+      ,"add-to-cart-info"
+      
     ]
   },
   "product-quantity": {

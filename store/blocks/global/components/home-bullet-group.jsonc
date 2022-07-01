@@ -1,5 +1,6 @@
 {
-    "list-context.bullet-group#global__bullets-slider": {
+   
+  "list-context.bullet-group#global__bullets-slider": {
         "title": "Lista de bullers",
         "children":["slider-layout#bullet-group"],
         "props": {
@@ -51,4 +52,5 @@
           }
       }
     }
+    
 }

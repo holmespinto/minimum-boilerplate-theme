@@ -1,3 +1,39 @@
 .wrapper--mobile__title{
+  
     color:rgb(94, 10, 228);
+}
+
+.listItem--home__list--1{
+	font-style: italic;
+      color:red;
+}
+
+.listItem--home__list--1 :nth-child(n){
+	background: yellow;
+	color: rgb(29, 6, 6);
+}
+.listItem--home__list--1 :nth-child(2n){
+	background: rgb(78, 21, 211);
+	color: rgb(204, 39, 39);
+}
+.listItem--home__list--1 :nth-child(3n){
+	background: rgb(212, 26, 26);
+	color: rgb(255, 255, 255);
+}
+.listItem--home__list--2{
+	font-style: italic;
+      color:rgb(143, 199, 38);
+}
+
+.listItem--home__list--2 :nth-child(n){
+	background: rgb(17, 141, 199);
+	color: white;
+}
+.listItem--home__list--2 :nth-child(2n){
+	background: rgb(137, 122, 172);
+	color: white;
+}
+.listItem--home__list--2 :nth-child(3n){
+	background: rgb(41, 13, 13);
+	color: rgb(255, 255, 255);
 }

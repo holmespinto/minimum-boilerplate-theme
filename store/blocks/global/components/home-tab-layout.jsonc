@@ -1,0 +1,200 @@
+{
+    "tab-layout#global__tab": {
+        "title": "Tab de actividades",
+        "children": [
+             "flex-layout.row#header__tab"
+        ],
+        "props": {
+            "blockClass": "header",
+            "defaultActiveTabId": "1"
+        }
+    },
+    "flex-layout.row#header__tab":{
+        "children": [
+            "flex-layout.col#header__tab--left",
+            "flex-layout.col#header__tab--middle",
+            "flex-layout.col#header__tab--right"
+        ]  
+    },
+    "flex-layout.col#header__tab--left": {
+        "children": [ "flex-layout.row#header__tab--left"
+        ],
+        "props": {
+            "width": "15%"
+        }
+      },
+      "flex-layout.row#header__tab--left": {
+        "children": [
+            //"logo#global__header--logo"
+        ]
+      }, 
+      "flex-layout.col#header__tab--middle": {
+        "children": [ "tab-list#home",
+            "tab-content#home"
+        ],
+        "props": {
+            "width": "75%"
+        }
+      }, 
+      "flex-layout.col#header__tab--right": {
+        "children": [
+            "flex-layout.row#header__tab--right"
+
+        ],
+        "props": {
+            "width": "10%"
+        }
+      }, 
+      "flex-layout.row#header__tab--right":{
+        "children": [
+            //"minicart.v2",
+            
+            
+        ]       
+      }, 
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home--1",
+            "tab-list.item#home--2",
+            "tab-list.item#home--3",
+            "tab-list.item#home--4"
+        ]
+    },
+    "tab-list.item#home--1": {
+        "title": "Tab de bienvenida",
+        "props": {
+            "tabId": "1",
+            "label": "Bienvenidos",
+            "defaultActiveTab": true,
+             "blockClass": "tabslist"
+        }
+    },
+    "tab-list.item#home--2": {
+        "title": "Tab de Slider layout",
+        "props": {
+            "tabId": "2",
+            "label": "Slider layout",
+            "blockClass": "tabslist"
+        }
+    },
+    "tab-list.item#home--3": {
+        "title": "Tab para modal",
+        "props": {
+            "tabId": "3",
+            "label": "Modal",
+            "blockClass": "tabslist"
+        }
+    },
+    "tab-list.item#home--4": {
+        "title": "Listas styles",
+        "props": {
+            "tabId": "4",
+            "label": "Listas styles",
+            "blockClass": "tabslist"
+        }
+    },  
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home--1",
+            "tab-content.item#home--2",
+            "tab-content.item#home--3",
+            "tab-content.item#home--4"
+        ]
+    },
+    "tab-content.item#home--1": {
+     "children": [
+        "flex-layout.row#home__section--one"
+    ],
+        "props": {
+            "tabId": "1"
+        }
+    },
+    "tab-content.item#home--2": {
+        "children": [
+            "rich-text#explicacion-2"
+        ],
+        "props": {
+            "tabId": "2"
+        }
+    },
+    "rich-text#explicacion-2":{
+        "props": {
+            "text": "Este ejercicio esta en la página de inicio",
+            "blockClass":"home__list--2"
+        }
+    },   
+    "tab-content.item#home--3": {
+        "children": [
+            "rich-text#explicacion--3"
+        ],
+        "props": {
+            "bId": "3"
+        }
+    },
+    "rich-text#explicacion--3":{
+        "props": {
+            "text": "Este ejercicio esta en los botones superiores: Compra Rapida, Imprimir pdf",
+            "blockClass":"home__list--4"
+        }
+    } , 
+    "tab-content.item#home--4": {
+        "children": ["flex-layout.row#home-list_style"],
+        "props": {
+            "tabId": "4"
+        }
+    },
+    "flex-layout.row#home__section--one": {
+        "children": ["flex-layout.row#text-about-us"]
+    },
+    "flex-layout.row#text-about-us": {
+   "children": [
+     "rich-text#about-title",
+     "rich-text#about-content",
+     "image#about-us"
+   ],
+       "props": {
+     "preventVerticalStretch": true
+   }
+ },
+"rich-text#about-title": {
+   "props": {
+     "text":
+     "# Componente custom"
+   }
+ },
+ "rich-text#about-content": {
+   "props": {
+     "text":"Para dejar en escrito, se empezará a realizar un sitio funcional en VTEX IO a su elección, se tendrá en cuenta los siguientes aspectos: Estructura: se medirá el ordenamiento de carpetas, código y nombramiento de bloques y componentes al final de mes. Estilos: debemos tener en cuenta los estilos, optimización y prácticas de manejo de los mismos. Componentes custom: También se pedirá que al menos exista un componente custom en el desarrollo aplicado. Deberá tener un flujo transaccional completo con las siguientes opciones:"
+   }
+ },
+ "image#about-us": {
+   "props": {
+     "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+     "maxHeight": "600px"
+   }
+ },
+    "flex-layout.row#home-list_style": {
+        "title": "Lista styles",
+        "children": [
+            "flex-layout.col#home-list_style"
+        ]
+    },
+    "flex-layout.col#home-list_style": {
+        "children": [
+            "rich-text#home_container--texto-1",
+            "rich-text#home_container--texto-2"
+        ]
+    },
+    "rich-text#home_container--texto-1": {
+        "props": {
+            "text": " - Lista No.1 \n - Lista No.2  \n - Lista No.3 \n",
+            "blockClass":"home__list--1"
+        }
+    },
+    "rich-text#home_container--texto-2": {
+        "props": {
+            "text": " - Lista No.1 \n - Lista No.2  \n - Lista No.3 \n",
+            "blockClass":"home__list--2"
+        }
+    }
+  }
