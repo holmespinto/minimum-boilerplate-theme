@@ -1,39 +1,10 @@
 {
   "header": {
-    "title": "Header Container",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#desktop__header-topbar"
-    ],
-    "props": {
-      "blockClass": "desktop__container",
-      "horizontalAlign": "left",
-      "fullWidth": true
-    }
-  },
-  "header-layout.mobile": {
-    "children": [
-      "flex-layout.row#mobile__header-topbar"
-    ],
-    "props": {
-      "blockClass": "desktop__container",
-      "horizontalAlign": "left",
-      "fullWidth": true
-    }
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   }
-  
 }
-
  
 

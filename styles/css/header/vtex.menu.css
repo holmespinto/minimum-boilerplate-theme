@@ -1,0 +1,20 @@
+.styledLinkContent--submenu-header1{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition: border .3s;
+  border-bottom: solid transparent 3px;
+}
+
+.menuItem--submenu{
+  margin-left: 2rem !important;
+}
+
+.menuItem--submenu-header1{
+  margin-left: 10px;
+}
+
+.styledLinkContent--submenu-header1:hover{
+  border-bottom: solid #db3b30 3px;
+  transition: .3s;
+}

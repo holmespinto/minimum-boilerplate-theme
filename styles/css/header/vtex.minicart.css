@@ -1,0 +1,45 @@
+.minicartContainer {
+  margin-right: 0px;
+}
+@media (max-width: 768px) {
+  .minicartContainer {
+    margin-right: 7px;
+  }
+}
+.minicartContainer .openIconContainer {
+  padding: 0;
+}
+.minicartContainer :global(.vtex-button) {
+  padding: 0;
+}
+.minicartContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: url(assets/icons/cart.svg);
+  margin-bottom: 3px;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: "";
+  color: #fff;
+  font-weight: normal;
+  font-size: 0px;
+  margin-bottom: 2px;
+}
+.minicartContainer
+  :global(.vtex-button)
+  :global(.vtex-button__label)
+  .cartIcon {
+  display: none;
+}
+.minicartContainer .minicartQuantityBadgeDefault {
+  top: -35px;
+  right: -23px;
+  color: #2c2a28;
+}

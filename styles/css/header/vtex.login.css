@@ -1,0 +1,171 @@
+.button :global(.vtex-button) {
+  background: none;
+  border-radius: 0;
+}
+.button :global(.vtex-button__label) {
+  font-size: 12px;
+  color: #666666;
+}
+.inputContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0;
+}
+.inputContainer
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input) {
+  border: 1px solid #888;
+  border-radius: 0;
+}
+.formFooter .sendButton :global(.vtex-button) {
+  border-radius: 0;
+  border: none;
+  font-size: 12px;
+  color: #666666;
+}
+.formFooter .sendButton :global(.vtex-button):hover {
+  border: none;
+}
+.container .label {
+  width: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0px;
+  padding: 0;
+  margin: 0;
+}
+.profile::before,
+.container .label::before {
+  content: "";
+  background: url(assets/icons/user.svg) no-repeat;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  background-size: contain;
+  margin-top: -4px;
+  margin-left: 40px;
+}
+.profile {
+  padding: 0;
+  font-size: 0px;
+}
+.formTitle {
+  font-weight: normal;
+  padding: 10px 0 20px;
+}
+.accountOptions :nth-child(even),
+.arrowUp {
+  display: none;
+}
+.arrowUp .contentContainer {
+  box-shadow: 0px 5px 30px #000;
+}
+.backButton :global(.vtex-button):focus,
+.backButton :global(.vtex-button):hover {
+  background: transparent;
+}
+.container :global(.vtex-button),
+.container :global(.vtex-button):focus,
+.container :global(.vtex-button):active,
+.container :global(.vtex-button):hover {
+  background: transparent;
+  border: 0 !important;
+  outline: none;
+}
+.container :global(.vtex-button__label) {
+  padding: 0 0.5em 0 1.3em;
+}
+.contentForm {
+  min-width: inherit;
+  padding: 0;
+  width: 100%;
+  margin: 0 1em;
+}
+.accountOptions .button,
+.accountOptions :global(.vtex-button__label),
+.accountOptions :global(.vtex-button) {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.accountOptions .button :first-child,
+.accountOptions :global(.vtex-button__label) :first-child {
+  text-transform: capitalize;
+}
+.accountOptions .button,
+.accountOptions :global(.vtex-button) {
+  width: 100%;
+}
+.accountOptions .button:hover,
+.accountOptions :global(.vtex-button):hover {
+  background: transparent;
+}
+.accountOptions .button::after {
+  content: "";
+  background: url(assets/icons/user.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+  margin-top: -4px;
+  margin-left: 40px;
+}
+:global(.vtex-store-header-2-x-headerRowContainer) .container {
+  float: none;
+  margin: 0 15px;
+}
+:global(.vtex-store-header-2-x-headerRowContainer) .container .buttonLink {
+  padding: 0;
+  display: flex;
+  align-content: center;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  .profile {
+  font-size: 12px;
+  display: block;
+  font-weight: normal;
+  text-decoration: none;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  .profile::before {
+  display: none;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  .profile::after {
+  content: "";
+  background: url(assets/icons/user.svg) no-repeat;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  margin-left: 40px;
+}
+@media (max-width: 768px) {
+  :global(.vtex-store-header-2-x-headerRowContainer)
+    .container
+    .buttonLink
+    .profile {
+    font-size: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 0 10px !important;
+  }
+  .container .buttonLink :global(.vtex-button__label) {
+    padding: 0;
+  }
+}
+
+:global(.vtex-login-2-x-contentContainer) {
+  position: absolute;
+  right: -2rem;
+}

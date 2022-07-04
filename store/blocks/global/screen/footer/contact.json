@@ -1,0 +1,40 @@
+{
+  "footer-row#contacts": {
+    "children": [
+      "accepted-payment-methods",
+      "footer-spacer",
+      "footer-row#secure-site"
+    ],
+    "props": {
+      "blockClass": "contacts"
+    }
+  },
+
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
+      "showInColor": true
+    }
+  },
+
+  "footer-row#secure-site": {
+    "children": ["rich-text#secure-site", "image#secure-site"],
+    "props": {
+      "blockClass": "secure-site"
+    }
+  },
+
+  "rich-text#secure-site": {
+    "props": {
+      "text": "SITIO SEGURO",
+      "blockClass": "label"
+    }
+  },
+
+  "image#secure-site": {
+    "props": {
+      "src": "https://amalia.vtexcommercestable.com.br/arquivos/seal.digicert.png",
+      "maxWidth": "60px"
+    }
+  }
+}

@@ -58,6 +58,7 @@
       "product-summary-space",
       "product-quantity",
       "product-summary-space",
+      // "product-identifier",
      // "product-separator",
      "modal-trigger#search-product-summary",
       "add-to-cart-button"

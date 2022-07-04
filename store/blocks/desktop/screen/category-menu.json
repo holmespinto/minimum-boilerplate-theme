@@ -1,0 +1,55 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu#submenu-header-mobile"
+    ]
+  },
+  "menu-item#category-dresses-accessories": {
+    "props": {
+      "id": "menu-item-category-dresses-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-dresses-clothing": {
+    "props": {
+      "id": "menu-item-category-dresses-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories",
+        "noFollow": false,
+        "tagTitle": "Clothing & Accessories",
+        "text": "Clothing & Accessories"
+      }
+    }
+  },
+  "menu-item#category-dresses-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-dresses-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  }
+}

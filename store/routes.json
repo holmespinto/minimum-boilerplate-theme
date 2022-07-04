@@ -5,7 +5,13 @@
     },
     "store.custom#custom-grid": {
       "path": "/custom-grid"
+    },
+    "store.custom#colection": {
+      "path": "/colection"
     }
-    
+    ,
+    "store.custom#accessories": {
+      "path": "/accessories"
+    }   
     
     }

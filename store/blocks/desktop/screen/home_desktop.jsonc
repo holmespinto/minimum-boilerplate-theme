@@ -1,13 +1,12 @@
 {
   "responsive-layout.desktop": {
-    "title": "Content search result Desktop",
+    "title": "Responsive the content Mobile",
     "children": [
-     "flex-layout.row#global__button--whatsapp",
       "list-context.image-list#global__banner-slider",
-      "list-context.bullet-group#global__bullets-slider",
       "flex-layout.row#global__product-slider--content",
-      "shelf.relatedProducts#global__product-related"
+      "shelf.relatedProducts#global__product-related",
+      "list-context.bullet-group#global__bullets-slider"
     ]
   }
- 
+  
 }

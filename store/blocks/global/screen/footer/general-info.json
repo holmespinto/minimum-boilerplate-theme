@@ -1,0 +1,10 @@
+{
+  "footer-row#1-desktop": {
+    "children": [
+      "footer-spacer"
+    ],
+    "props": {
+      "blockClass": "menu-row"
+    }
+  }
+}

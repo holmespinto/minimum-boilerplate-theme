@@ -1,0 +1,140 @@
+{
+    "menu#submenu-header-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu-header1",
+            "items": [
+                {
+                    "id": "item-just-today",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Favoritos",
+                        "text": "Favoritos"
+                    }
+                },
+                {
+                    "id": "item-just-for-you",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Arma tu pack",
+                        "text": "Arma tu pack"
+                    }
+                },
+                {
+                    "id": "item-official-stores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Sets",
+                        "text": "Sets"
+                    }
+                },
+                {
+                    "id": "item-sell-in-linio",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Maquillaje",
+                        "text": "Maquillaje"
+                    }
+                },
+                {
+                    "id": "item-help",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Perfumes",
+                        "text": "Perfumes"
+                    }
+                },
+                {
+                    "id": "item-falabella-bank",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Cuidado personal",
+                        "text": "Cuidado personal"
+                    }
+                },
+                {
+                    "id": "item-international",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Cuidado de la piel",
+                        "text": "Cuidado de la piel"
+                    }
+                },
+                {
+                    "id": "item-international",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Accesorios",
+                        "text": "Accesorios"
+                    }
+                },
+                {
+                    "id": "item-international",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Blog",
+                        "text": "Blog"
+                    }
+                },
+                {
+                    "id": "item-international",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Nuestras tiendas",
+                        "text": "Nuestras tiendas"
+                    }
+                }
+            ]
+        }
+    }
+}

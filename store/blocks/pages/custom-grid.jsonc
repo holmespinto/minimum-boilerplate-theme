@@ -1,11 +1,13 @@
 {
 
   "store.custom#custom-grid": {
-    "blocks": ["flex-layout.row#custom-grid"]
+    "blocks": ["flex-layout.row#custom-grid",
+      "flex-layout.row#custom__header-topbar"]
   },
 "flex-layout.row#custom-grid": {
  "children": [
-  "custom-grid"
+  "custom-grid",
+  "flex-layout.row#global__button--whatsapp" 
  ]
 },
   "custom-grid":{
@@ -40,10 +42,19 @@
     "flex-layout.col#custom-grid-3":{
 
       "children":[
-        "rich-text#custom-grid-3",
+        "flex-layout.col#mobile__header-departmants",
          "image#custom-grid-3"
       ]     
       
+  },
+  "flex-layout.col#mobile__header-departmants": {
+    "title": "Search  in the header for select departmants",
+    "children": [
+      "flex-layout.row#global__department-shearch"
+    ],
+    "props": {
+      "marginLeft": "1"
+    }
   },
     "rich-text#custom-grid-3":{
         "props":{

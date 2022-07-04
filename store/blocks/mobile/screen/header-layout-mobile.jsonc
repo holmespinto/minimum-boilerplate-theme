@@ -1,0 +1,341 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile",
+      "header-row#3-mobile",
+      "header-row#4-mobile",
+      "header-row#5-mobile",      
+      "header-row#main-header-space",
+      "header-row#6-mobile",
+      "header-row#main-header-space"
+    ]
+  },
+  "header-row#main-header-space": {
+    "children": [
+      "flex-layout.row#main-header-space"
+    ],
+    "props": {
+      "sticky": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-space"
+    }
+  },
+  "flex-layout.row#main-header-space": {
+    "title": "space header mobile",
+    "props": {
+      "blockClass": "main-header-space",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "flex-layout.row#top-header-mobile"
+    ],
+    "props": {
+      "sticky": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-mobile1"
+    }
+  },
+  "flex-layout.row#top-header-mobile": {
+    "title": "Top header mobile",
+    "props": {
+      "blockClass": "top-header-mobile",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#mobile__brand1",
+      "flex-layout.col#mobile__brand2",
+      "flex-layout.col#mobile__brand3"
+    ]
+  },
+  "flex-layout.col#mobile__brand1": {
+    "props": {
+      "blockClass": "col-brand1",
+      "horizontalAlign": "center",
+      "paddingLeft": 8,
+      "paddingRight": 8
+    },
+    "children": [
+      "image#mobile__brand1"
+    ]
+  },
+  "flex-layout.col#mobile__brand2": {
+    "props": {
+      "blockClass": "col-brand2",
+      "horizontalAlign": "center",
+      "paddingLeft": 8,
+      "paddingRight": 8
+    },
+    "children": [
+      "image#mobile__brand2"
+    ]
+  },
+  "flex-layout.col#mobile__brand3": {
+    "props": {
+      "blockClass": "col-brand3",
+      "horizontalAlign": "center",
+      "paddingLeft": 8,
+      "paddingRight": 8
+    },
+    "children": [
+      "image#mobile__brand3"
+    ]
+  },
+  "image#mobile__brand1": {
+    "props": {
+      "src": "assets/icons/esika-small.svg",
+      "maxWidth": 50,
+      "maxHeight": 28
+    }
+  },
+  "image#mobile__brand2": {
+    "props": {
+      "src": "assets/icons/lbel.svg",
+      "maxWidth": 53,
+      "maxHeight": 12
+    }
+  },
+  "image#mobile__brand3": {
+    "props": {
+      "src": "assets/icons/cyzone.svg",
+      "maxWidth": 48,
+      "maxHeight": 15
+    }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "flex-layout.row#top-header-desktop3",
+      "flex-layout.row#top-header-mobile2"
+    ],
+    "props": {
+      "sticky": false,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-mobile2"
+    }
+  },
+  "flex-layout.row#top-header-desktop3": {
+    "title": "Logo Top header desktop sub",
+    "props": {
+      "blockClass": "main-header-desktop0",
+      "fullWidth": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+     "image#desktop__brand0"
+    ]
+  },
+  "image#desktop__brand0": {
+    "props": {
+      "src": "assets/icons/esika-big.svg",
+      "maxWidth": 20,
+      "maxHeight": 28,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#top-header-mobile2": {
+    "title": "Top header mobile sub",
+    "props": {
+      "blockClass": "top-header-mobile2",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-1"
+    ]
+  },
+  "rich-text#text-1": {
+    "props": {
+      "text": "Compra a través de una **consulta online** >",
+      "blockClass": "text1"
+    }
+  },
+  "header-row#3-mobile": {
+    "children": [
+      "drawer",
+      "header-spacer",
+      "logo#mobile",
+      "header-spacer"//,
+      //"minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile3"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu#submenu-header-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "header-row#4-mobile": {
+    "children": [
+      "search-bar#mobile"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "search-header-mobile4",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+  "search-bar#mobile": {
+    "props": {
+      "placeholder": "Estoy buscando..."
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo-mobile",
+      "href": "/",
+      "url": "assets/icons/esika-big.svg",
+      "width": "180",
+      "mobileWidth": "100"
+    }
+  },
+  "header-row#5-mobile": {
+    "children": [
+      "flex-layout.row#top-header-mobile5"
+    ],
+    "props": {
+      "sticky": false,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-mobile5"
+    }
+  },
+  "flex-layout.row#top-header-mobile5": {
+    "title": "Infor header ",
+    "props": {
+      "blockClass": "main-header-mobile5",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-2"
+    ]
+  },
+  "rich-text#text-2": {
+    "props": {
+      "text": "¡Envío Gratis por + $70,000!",
+      "blockClass": "main-header-mobile5"
+    }
+  },
+  "header-row#6-mobile": {
+    "children": [
+      
+      "slider-layout#top-header-mobile6"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-header-mobile6"
+    }
+  },
+  "slider-layout#top-header-mobile6": {
+    "title": "categorias header info",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet":5,
+        "phone": 5
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "rich-text#text-black1",
+      "rich-text#text-black2",
+      "rich-text#text-black3",
+      "rich-text#text-black4",
+      "rich-text#text-black5",
+      "rich-text#text-black6",
+      "rich-text#text-black7",
+      "rich-text#text-black8",
+      "rich-text#text-black9"
+    ]
+  },
+  "rich-text#text-black1": {
+    "props": {
+      "text": "Ofertas",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black2": {
+    "props": {
+      "text": "Maquillajes",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black3": {
+    "props": {
+      "text": "Perfumes",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black4": {
+    "props": {
+      "text": "Cuidado de la piel",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black5": {
+    "props": {
+      "text": "Cuidado personal",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black6": {
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black7": {
+    "props": {
+      "text": "Ofertas",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black8": {
+    "props": {
+      "text": "Maquillajes",
+      "blockClass": "black"
+    }
+  },
+  "rich-text#text-black9": {
+    "props": {
+      "text": "Perfumes",
+      "blockClass": "black"
+    }
+  }
+}

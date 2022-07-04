@@ -1,0 +1,14 @@
+:global(.vtex-store-components-3-x-sizeDesktop) {
+  padding-bottom: 0px !important;
+  padding-right: 20rem !important;
+}
+.logoContainer--logo-desktop {
+  padding-bottom: 0px !important;
+}
+
+.logoImage--logo-desktop {
+  padding-bottom: 0px !important;
+}
+.logoLink--logo-desktop {
+  padding-bottom: 0px !important;
+}

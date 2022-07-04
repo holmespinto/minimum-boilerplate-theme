@@ -1,0 +1,15 @@
+{
+
+    "flex-layout.row#mobile-submenu": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "header-submenu1"
+        },
+        "children": [
+            "menu#submenu-header-mobile"
+        ]
+    }
+}

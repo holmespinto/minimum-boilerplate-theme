@@ -1,0 +1,10 @@
+{
+"store.custom#colection": {
+      "blocks": ["flex-layout.row#colection"]
+    },
+ "flex-layout.row#colection": {
+   "children": [
+   
+   ]
+ }
+}

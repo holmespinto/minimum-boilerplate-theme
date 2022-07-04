@@ -1,0 +1,20 @@
+.flexRow--footerServices {
+  width: 100%;
+}
+
+.flexRowContent--footerServices {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flexRowContent--footerServices
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 50% !important;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--footerServices
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: calc(100% / 3) !important;
+  }
+}

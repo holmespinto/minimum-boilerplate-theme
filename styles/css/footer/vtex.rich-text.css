@@ -1,0 +1,10 @@
+.container--footerServices,
+.paragraph--footerMenuTitle {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+.container--footerServices {
+  padding: 10px 5px;
+  justify-content: center;
+}

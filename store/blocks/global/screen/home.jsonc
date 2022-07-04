@@ -2,29 +2,12 @@
   "store.home": {
     "title": "Home Container global",
     "blocks": [
-      "flex-layout.row#mobile__header-topbar--search",  
       "responsive-layout.desktop",
-      "responsive-layout.mobile",   
-      "flex-layout.row#global__button--whatsapp" 
+      "responsive-layout.mobile" 
+      
     ]
-  },
-     "flex-layout.row#mobile__header-topbar--search": {
-    "title": "Search  in the header for select departmants",
-    "children": [
-      "flex-layout.col#mobile__header-departmants"
-    ],
-    "props": {
-      "blockClass": "header__search",
-      "horizontalAlign": "center"
-    }
-  },
-  "flex-layout.col#mobile__header-departmants": {
-    "children": [
-      "flex-layout.row#global__department-shearch"
-    ],
-    "props": {
-      "marginLeft": "1"
-    }
   }
+     
+  
 }
   

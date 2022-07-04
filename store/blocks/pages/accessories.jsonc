@@ -1,0 +1,15 @@
+{
+"store.custom#accessories": {
+      "blocks": ["flex-layout.row#accessories"]
+    },
+ "flex-layout.row#accessories": {
+  "children": [
+    "rich-text#accessories-title"
+  ]
+ },
+ "rich-text#accessories-title": {
+   "props": {
+     "text": "Página se Accessories"
+   }
+ }
+}

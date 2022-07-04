@@ -1,3 +1,98 @@
-.headerRowBackground {
-    background-color: rgb(245, 173, 173) !important;
+.headerRowContainer--main-header-mobile1 {
+  flex-direction: row !important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  min-height: 40px;
 }
+.headerRowContainer--carousel{
+  flex-direction: row !important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  min-height: 40px;
+}
+
+.headerRowContainer--main-header-desktop1 {
+  flex-direction: row !important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  min-height: 40px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%) !important;
+}
+.headerRowContainer--main-header-mobile2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100% !important;
+  background-color: #db3b30;
+  height: 32px;
+}
+.headerStickyRow--main-header-mobile1 {
+  flex-direction: row !important;
+}
+
+.headerRowContainer--main-header-mobile5 {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100% !important;
+  background-color: transparent;
+  color: black;
+  background-color: #ffffff;
+  height: auto;
+}
+.headerRowContainer--main-header-space {
+  flex-direction: row !important;
+  width: 100% !important;
+  background-color: #ffffff;
+  height: 10px;
+}
+.headerRowContainer--main-header-mobile6 {
+  flex-direction: row !important;
+  width: 100% !important;
+  background-color: #ffffff;
+  height: 50px;
+}
+
+.headerRowContainer--main-header-desktop2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100% !important;
+  background-color: #db3b30;
+  height: 44px;
+}
+
+.headerRowContainer--main-menu-descktop {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+.headerRowBackground--main-menu-descktop {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  align-items: center;
+  align-content: center;
+}
+

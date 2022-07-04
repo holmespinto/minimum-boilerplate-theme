@@ -1,10 +1,8 @@
 {
 "store.custom#sobre-nosotros": {
-      "blocks": ["flex-layout.row#about-us"]
+      "blocks": ["flex-layout.row#sobre-nosotros"]
     },
- "flex-layout.row#about-us": {
-   "children": [
-    "tab-layout#global__tab"
-   ]
+ "flex-layout.row#sobre-nosotros": {
+   "children": ["tab-layout#global__tab" ]
  }
 }

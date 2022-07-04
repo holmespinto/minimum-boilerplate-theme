@@ -1,0 +1,228 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "header-row#0-desktop",
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop",
+      "header-row#5-desktop"
+    ]
+  },
+  "header-row#0-desktop": {
+    "children": [
+      "flex-layout.row#top-header-desktop3",
+      "flex-layout.row#top-header-desktop4"
+    ],
+    "props": {
+      "sticky": false,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-desktop2"
+    }
+  },
+  "flex-layout.row#top-header-desktop4": {
+    "title": "Top header desktop sub",
+    "props": {
+      "blockClass": "top-header-desktop2",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-1"
+    ]
+  },
+  "flex-layout.row#top-header-desktop3": {
+    "title": "Logo Top header desktop sub",
+    "props": {
+      "blockClass": "main-header-desktop0",
+      "fullWidth": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+     "image#desktop__brand0"
+    ]
+  },
+  "image#desktop__brand0": {
+    "props": {
+      "blockClass": "main-header-desktop0",
+      "src": "assets/icons/esika-big.svg",
+      "maxWidth": 30,
+      "maxHeight": 18
+    }
+  },
+  "rich-text#text-1": {
+    "props": {
+      "text": "Compra a través de una **consulta online** >",
+      "blockClass": "text1"
+    }
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "flex-layout.row#top-header-desktop"
+    ],
+    "props": {
+      "sticky": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-desktop1"
+    }
+  },
+  "flex-layout.row#top-header-desktop": {
+    "title": "Top header desktop",
+    "props": {
+      "blockClass": "top-header-mobile1",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#desktop__brand1",
+      "flex-layout.col#desktop__brand2",
+      "flex-layout.col#desktop__brand3",
+      "flex-layout.row#desktop__header-rigth"
+    ]
+  },
+  "flex-layout.row#desktop__header-rigth": {
+    "props": {
+      "blockClass": "header-rigth",
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "rich-text#desktop__header-text",
+      "header-spacer",
+      "login",
+      "header-spacer",
+      "minicart.v2"
+    ]
+  },
+  "rich-text#desktop__header-text": {
+    "props": {
+      "text": "Quiero ser consultora",
+      "blockClass": "text-header"
+    }
+  },
+  "flex-layout.col#desktop__brand1": {
+    "props": {
+      "blockClass": "col-brand1",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#desktop__brand1"
+    ]
+  },
+  "flex-layout.col#desktop__brand2": {
+    "props": {
+      "blockClass": "col-brand2",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#desktop__brand2"
+    ]
+  },
+  "flex-layout.col#desktop__brand3": {
+    "props": {
+      "blockClass": "col-brand3",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#desktop__brand3"
+    ]
+  },
+  "image#desktop__brand1": {
+    "props": {
+      "src": "assets/icons/esika-small.svg",
+      "maxWidth": 50,
+      "maxHeight": 28
+    }
+  },
+  "image#desktop__brand2": {
+    "props": {
+      "src": "assets/icons/lbel.svg",
+      "maxWidth": 53,
+      "maxHeight": 12
+    }
+  },
+  "image#desktop__brand3": {
+    "props": {
+      "src": "assets/icons/cyzone.svg",
+      "maxWidth": 48,
+      "maxHeight": 15
+    }
+  },
+  "flex-layout.col#desktop__spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "search-bar#desktop"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-menu-descktop"
+      //"inverted": "true"
+    }
+  },
+  "search-bar#desktop": {
+    "props": {
+      "placeholder": "Estoy buscando...",
+      "maxWidth": 325
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "flex-layout.row#desktop-submenu1"
+    ],
+    "props": {
+      "sticky": false,
+      "blockClass": "main-header-desktop"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "blockClass": "logo-desktop",
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/esika-big.svg",
+      "width": "110"
+    }
+  },
+  "header-row#5-desktop": {
+    "children": [
+      "flex-layout.row#top-header-desktop5"
+    ],
+    "props": {
+      "sticky": false,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header-mobile5"
+    }
+  },
+  "flex-layout.row#top-header-desktop5": {
+    "title": "Infor header ",
+    "props": {
+      "blockClass": "top-header-desktop5",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-5"
+    ]
+  },
+  "rich-text#text-5": {
+    "props": {
+      "text": "¡Envío Gratis por + $60,000!",
+      "blockClass": "text2"
+    }
+  }
+}

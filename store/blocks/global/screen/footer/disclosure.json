@@ -1,0 +1,120 @@
+{
+  "footer-row#footer-menu": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": ["flex-layout.row#footer-menu"]
+  },
+  "flex-layout.row#footer-menu": {
+    "children": ["flex-layout.col#footer-menu"]
+  },
+  "flex-layout.col#footer-menu": {
+    "children": ["disclosure-layout-group#footer-menu"]
+  },
+  "disclosure-layout-group#footer-menu": {
+    "children": [
+      "disclosure-layout#footer-menu-1",
+      "disclosure-layout#footer-menu-2",
+      "disclosure-layout#footer-menu-3",
+      "disclosure-layout#footer-menu-4"
+    ]
+  },
+
+  "disclosure-layout#footer-menu-1": {
+    "children": [
+      "disclosure-trigger#footer-menu-1",
+      "disclosure-content#footer-menu-1"
+    ]
+  },
+  "disclosure-trigger#footer-menu-1": {
+    "props": { "as": "div" },
+    "children": ["rich-text#title-1"]
+  },
+  "disclosure-content#footer-menu-1": {
+    "children": ["image#content-1"]
+  },
+  "rich-text#title-1": {
+    "props": {
+      "blockClass": "footerMenuTitle",
+      "text": "Nuestras Marcas"
+    }
+  },
+  "image#content-1": {
+    "props": {
+      "src": "https://res.cloudinary.com/dhxg3zyjz/image/upload/v1633653524/Captura_de_pantalla_2021-10-07_193652_gdf272.png"
+    }
+  },
+
+  "disclosure-layout#footer-menu-2": {
+    "children": [
+      "disclosure-trigger#footer-menu-2",
+      "disclosure-content#footer-menu-2"
+    ]
+  },
+  "disclosure-trigger#footer-menu-2": {
+    "props": { "as": "div" },
+    "children": ["rich-text#title-2"]
+  },
+  "disclosure-content#footer-menu-2": {
+    "children": ["image#content-2"]
+  },
+  "rich-text#title-2": {
+    "props": {
+      "blockClass": "footerMenuTitle",
+      "text": "Cátalogos"
+    }
+  },
+  "image#content-2": {
+    "props": {
+      "src": "https://res.cloudinary.com/dhxg3zyjz/image/upload/v1633653524/Captura_de_pantalla_2021-10-07_193706_dplb3n.png"
+    }
+  },
+  "disclosure-layout#footer-menu-3": {
+    "children": [
+      "disclosure-trigger#footer-menu-3",
+      "disclosure-content#footer-menu-3"
+    ]
+  },
+  "disclosure-trigger#footer-menu-3": {
+    "props": { "as": "div" },
+    "children": ["rich-text#title-3"]
+  },
+  "disclosure-content#footer-menu-3": {
+    "children": ["image#content-3"]
+  },
+  "rich-text#title-3": {
+    "props": {
+      "blockClass": "footerMenuTitle",
+      "text": "Legal"
+    }
+  },
+  "image#content-3": {
+    "props": {
+      "src": "https://res.cloudinary.com/dhxg3zyjz/image/upload/v1633653524/Captura_de_pantalla_2021-10-07_193721_fybgql.png"
+    }
+  },
+  "disclosure-layout#footer-menu-4": {
+    "children": [
+      "disclosure-trigger#footer-menu-4",
+      "disclosure-content#footer-menu-4"
+    ]
+  },
+  "disclosure-trigger#footer-menu-4": {
+    "props": { "as": "div" },
+    "children": ["rich-text#title-4"]
+  },
+  "disclosure-content#footer-menu-4": {
+    "children": ["image#content-4"]
+  },
+  "rich-text#title-4": {
+    "props": {
+      "blockClass": "footerMenuTitle",
+      "text": "Contáctanos"
+    }
+  },
+  "image#content-4": {
+    "props": {
+      "src": "https://res.cloudinary.com/dhxg3zyjz/image/upload/v1633653524/Captura_de_pantalla_2021-10-07_193736_hezfz0.png"
+    }
+  }
+}

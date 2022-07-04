@@ -2,24 +2,12 @@
   "responsive-layout.mobile": {
     "title": "Responsive the content Mobile",
     "children": [
-      "flex-layout.row#global__button--whatsapp", 
-      //"flex-layout.row#mobile__title",
       "list-context.image-list#global__banner-slider",
       "flex-layout.row#global__product-slider--content",
       "shelf.relatedProducts#global__product-related",
       "list-context.bullet-group#global__bullets-slider"
     ]
   }
-  /*,
-  "flex-layout.row#mobile__title":{
-    "children": [ "rich-text#mobile__title"]
-  },
-  "rich-text#mobile__title": {
-    "props": {
-      "text": "# Usted esta en modo mobile.",
-      "blockClass": "mobile__title"
-    }
-  }
-  */
+  
 }
   

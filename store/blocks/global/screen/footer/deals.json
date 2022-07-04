@@ -1,0 +1,66 @@
+{
+  "footer-row#deals-desktop": {
+    "children": ["flex-layout.row#deals"],
+    "props": {
+      "blockClass": "footerDeals"
+    }
+  },
+
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": ["image#deal1", "rich-text#deal1"]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://amalia.vteximg.com.br/arquivos/shield.png",
+      "maxHeight": "32px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "Fácil y seguro",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": ["image#deal2", "rich-text#deal2"]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://amalia.vteximg.com.br/arquivos/logistics-delivery-truck-in-movement.png",
+      "maxHeight": "32px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "Envíos gratis siempre",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": ["image#deal3", "rich-text#deal3"]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://amalia.vteximg.com.br/arquivos/credit-card.png",
+      "maxHeight": "32px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "Múltiples métodos de pago",
+      "blockClass": "deals"
+    }
+  }
+}
