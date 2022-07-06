@@ -102,12 +102,12 @@
       },
       "image#grid-item-1": {
         "props": {
-          "src": "assets/img/home/category/maquillaje.jpg"
+          "src": "assets/img/home/category/categoria-fragancias-esika-v02-mb-co.avif"
         }
       },
       "image#grid-item-2": {
         "props": {
-          "src": "assets/img/home/category/fragancias.jpg"
+          "src": "assets/img/home/category/categoria-maquillaje-esika-v01-mb-co.avif"
         }
       },"image#grid-item-3": {
         "props": {

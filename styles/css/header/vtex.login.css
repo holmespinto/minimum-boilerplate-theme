@@ -43,7 +43,7 @@
   display: inline-block;
   background-size: contain;
   margin-top: -4px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .profile {
   padding: 0;
@@ -109,7 +109,7 @@
   display: inline-block;
   background-size: contain;
   margin-top: -4px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 :global(.vtex-store-header-2-x-headerRowContainer) .container {
   float: none;
@@ -146,7 +146,7 @@
   display: inline-block;
   vertical-align: middle;
   background-size: contain;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 @media (max-width: 768px) {
   :global(.vtex-store-header-2-x-headerRowContainer)
@@ -165,7 +165,3 @@
   }
 }
 
-:global(.vtex-login-2-x-contentContainer) {
-  position: absolute;
-  right: -2rem;
-}

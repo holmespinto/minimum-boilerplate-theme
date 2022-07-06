@@ -11,7 +11,9 @@
       "flex-layout.row#maquillador",
       //"flex-layout.row#shelf-home"
       //"list-context.bullet-group#global__bullets-slider"
-      "flex-layout.row#esika-election"
+      "flex-layout.row#esika-election",
+      "flex-layout.row#esika-comillas-guion",
+      "flex-layout.row#esika-catalogo-online"
     ]
   },
   "rich-text#recommended": {

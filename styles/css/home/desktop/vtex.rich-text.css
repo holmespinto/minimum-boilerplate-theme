@@ -48,3 +48,59 @@
    display: flex;
    flex-direction: column;
 }
+.paragraph--hr-style {
+   border-bottom: 2px solid rgb(252, 13, 13);
+   color: rgb(252, 247, 247);
+   width: 300px;
+   margin-top: -57px;
+ }
+ .grid-item-title-left{
+   position:relative;
+   background-color:brown;  
+}
+.paragraph--grid-item-title-left{
+   font-size:50px;
+   width: 200px;
+   margin-top: 0px;
+   margin-left: 200px;
+   line-height: normal;
+}
+.paragraph--grid-item-title-right{
+   font-size:40px;
+   width: 200px;
+   margin-top: 120px;
+   margin-left: 150px;
+   line-height: normal;
+}
+.paragraph--buttonLeft{
+   display: flex;
+   font-family: "brownstd";
+   font-size: 2em !important;
+   background-color:rgb(12, 11, 11);
+   color: rgb(252, 247, 247);
+   width: 250px;
+   margin-top: 220px;
+   margin-left: 50px;
+   z-index:999;
+   position:relative;
+   overflow: hidden;
+   height: 60px;
+   text-align:center;
+   padding: 6px 6px 0px 10px;
+}
+.paragraph--buttonRight{
+   display: flex;
+   font-family: "brownstd";
+   font-size: 2em !important;
+   background-color:rgb(12, 11, 11);
+   color: rgb(252, 247, 247);
+   width: 250px;
+   margin-top: 220px;
+   margin-left: -80px;
+   z-index:999;
+   position:relative;
+   overflow: hidden;
+   height: 60px;
+   text-align:center;
+   padding: 6px 6px 0px 10px;
+}

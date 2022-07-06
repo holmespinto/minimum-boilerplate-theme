@@ -1,7 +1,4 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
   "footer-layout.desktop": {
     "children": ["flex-layout.row#whatsapp","footer-row#menu-desktop", "footer-row#service-desktop"]
   },

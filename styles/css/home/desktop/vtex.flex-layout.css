@@ -17,5 +17,21 @@
     background-color:transparent;
     position:relative;
 }
+.flexColChild--imagebagraund{
+    background-color:transparent;
+    background-repeat:no-repeat;
+
+}
+.flexColChild--imageDualBanner{
+    width: 100%;
+    position:absolute; z-index:0;
+}
+.flexRowContent--catalogo_grid{
+    position:absolute; z-index:99;
+    width: 50%; 
+    left:450px;
+    overflow: hidden;
+}
+
 
 
