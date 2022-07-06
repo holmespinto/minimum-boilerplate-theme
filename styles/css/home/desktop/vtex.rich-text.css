@@ -1,3 +1,50 @@
 .wrapper--desktop__title{
    color:brown;
 }
+.paragraph--single__banner-text{
+   font-family: "brownstd";
+   font-size: 2em !important;
+   color: black;
+   width: 400px;
+   margin-right: 20px;
+   text-align:left;
+   margin-top: 1px;
+   line-height:90%;
+   display: flex;
+   flex-direction: column;
+
+}
+.paragraph--single__banner-yoeligo{
+   font-family: "brownstd";
+   font-size: 2em !important;
+   color: black;
+   width: 400px;
+   margin-right: 10px;
+   text-align:left;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+
+}
+.paragraph--single__banner-comillas{
+   display: flex;
+   position: initial; 
+   width: 100%!important;
+   text-align: center;
+   color: rgb(223, 91, 91);
+   font-size: 6em !important;
+   margin-top: -30px;
+}
+.paragraph--single__banner-comillas-text{
+   font-family: "brownstd";
+   font-size: 4em !important;
+   color: black;
+   width: 1100px;
+   margin-right: 20px;
+   text-align:center;
+   margin-top: -170px;
+   line-height:90%;
+   display: flex;
+   flex-direction: column;
+}

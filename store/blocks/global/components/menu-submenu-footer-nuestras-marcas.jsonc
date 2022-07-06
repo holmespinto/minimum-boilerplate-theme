@@ -1,0 +1,60 @@
+{
+    "menu#submenu__footer-nuestras-marcas": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu-footer",
+            "items": [
+                {
+                    "id": "item-just-today",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "noFollow": false,
+                        "tagTitle": "Nuestras Marcas",
+                        "text": "Nuestras Marcas"
+                    }
+                },
+                {
+                    "id": "item-just-today",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "ésika",
+                        "text": "ésika"
+                    }
+                },
+                {
+                    "id": "item-just-for-you",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "L'Bel",
+                        "text": "L'Bel"
+                    }
+                },
+                {
+                    "id": "item-official-stores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Cyzone",
+                        "text": "Cyzone"
+                    }
+                }
+            ]
+        }
+    }
+}

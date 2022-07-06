@@ -3,10 +3,53 @@
     "title": "Responsive the content Mobile",
     "children": [
       "list-context.image-list#global__banner-slider",
+      
+      "flex-layout.row#category-grid",
+      "rich-text#recommended",
       "flex-layout.row#global__product-slider--content",
-      "shelf.relatedProducts#global__product-related",
-      "list-context.bullet-group#global__bullets-slider"
+      //"shelf.relatedProducts#global__product-related",
+      "flex-layout.row#maquillador",
+      //"flex-layout.row#shelf-home"
+      //"list-context.bullet-group#global__bullets-slider"
+      "flex-layout.row#esika-election"
     ]
+  },
+  "rich-text#recommended": {
+    "title": "Título Recomendados",
+    "props": {
+      "text": "## Recomendados para ti",
+      "blockClass": "home-title"
+    }
+  }/*,
+
+  "flex-layout.row#shelf-home": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "product-summary.shelf#shelf-home": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#shelf-home"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "194"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
   }
-  
+  */
 }

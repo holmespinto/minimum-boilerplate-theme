@@ -12,6 +12,9 @@
     ,
     "store.custom#accessories": {
       "path": "/accessories"
+    } ,
+    "store.custom#category": {
+      "path": "/category"
     }   
     
     }

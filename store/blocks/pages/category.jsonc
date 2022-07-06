@@ -1,0 +1,15 @@
+{
+    "store.custom#category": {
+          "blocks": ["flex-layout.row#category"]
+        },
+     "flex-layout.row#category": {
+      "children": [
+        "rich-text#category-title"
+      ]
+     },
+     "rich-text#category-title": {
+       "props": {
+         "text": "Página de category"
+       }
+     }
+    }

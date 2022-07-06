@@ -5,9 +5,13 @@
       "list-context.image-list#global__banner-slider",
       "flex-layout.row#global__product-slider--content",
       "shelf.relatedProducts#global__product-related",
-      "list-context.bullet-group#global__bullets-slider"
+      "responsive-layout.mobile#category-grid",
+           //"shelf.relatedProducts#global__product-related",
+           "flex-layout.row#maquillador",
+           //"flex-layout.row#shelf-home"
+           //"list-context.bullet-group#global__bullets-slider"
+           "flex-layout.row#esika-election"
     ]
   }
-  
 }
   

@@ -6,36 +6,38 @@
         "props": {
           "bullets":[
             {
-            "image": "assets/img/bullets/pc.jpg",
-            "titleBullet": "Computadores",
+            "image": "assets/img/home/category/cuidado-personal.jpg",
+            "titleBullet": "Maquillaje",
+            "link":{
+                "url":"/"
+            },
+            "blockClass": "wavebanner_banner_1"
+            
+          },
+          {
+            "image": "assets/img/home/category/fragancias.jpg",
+            "titleBullet": "Fragancias",
             "link":{
                 "url":"/"
             }
           },
           {
-            "image": "assets/img/bullets/baterias.jpg",
-            "titleBullet": "Baterias",
+            "image": "assets/img/home/category/joyeria.jpg",
+           "titleBullet": "Joyeria",
             "link":{
                 "url":"/"
             }
           },
           {
-            "image": "assets/img/bullets/memorias.jpg",
-            "titleBullet": "Memorias",
+            "image": "assets/img/home/category/maquillaje.jpg",
+            "titleBullet": "Maquillaje",
             "link":{
                 "url":"/"
             }
           },
           {
-            "image": "assets/img/bullets/teclado.jpg",
-            "titleBullet": "Teclados",
-            "link":{
-                "url":"/"
-            }
-          },
-          {
-            "image": "assets/img/bullets/bluetooth.jpg",
-            "titleBullet": "Bluetooth",
+            "image": "assets/img/home/category/tratamiento-facial.jpg",
+            "titleBullet": "Tratamiento Facial",
             "link":{
                 "url":"/"
             }
@@ -46,9 +48,9 @@
       "slider-layout#bullet-group":{
         "props": {
           "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 4,
-            "phone": 4
+            "desktop": 5,
+            "tablet": 5,
+            "phone": 5
           }
       }
     }

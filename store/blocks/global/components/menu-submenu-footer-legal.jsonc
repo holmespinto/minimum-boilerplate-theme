@@ -1,0 +1,122 @@
+{
+    "menu#submenu__footer-legal": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu-footer",
+            "items": [
+                {
+                    "id": "item-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        //"noFollow": false,
+                        "tagTitle": "Legal",
+                        "text": "Legal",
+                        "blockClass": "submenu-header1"
+                    }
+                },
+                {
+                    "id": "item-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Condiciones de Uso Web",
+                        "text": "Condiciones de Uso Web"
+                    }
+                },
+                {
+                    "id": "item-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Política de Privacidad",
+                        "text": "Política de Privacidad"
+                    }
+                },
+                {
+                    "id": "item-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Términos y condiciones",
+                        "text": "Términos y condiciones"
+                    }
+                },
+                {
+                    "id": "item-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Derechos Arco",
+                        "text": "Derechos Arco"
+                    }
+                },{
+                    "id": "item-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Autorización para el Envío de Publicidad",
+                        "text": "Autorización para el Envío de Publicidad"
+                    }
+                },{
+                    "id": "item-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Política de cambios y devoluciones",
+                        "text": "Política de cambios y devoluciones"
+                    }
+                },{
+                    "id": "item-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Política de Cookies",
+                        "text": "Política de Cookies"
+                    }
+                },{
+                    "id": "item-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Código de Ética de Acovedi",
+                        "text": "Código de Ética de Acovedi"
+                    }
+                }
+            ]
+        }
+    }
+}

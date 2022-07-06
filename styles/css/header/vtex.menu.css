@@ -18,3 +18,26 @@
   border-bottom: solid #db3b30 3px;
   transition: .3s;
 }
+
+
+.styledLinkContent--submenu-footer{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition: border .3s;
+  border-bottom: solid transparent 3px;
+  color: #fff;
+}
+
+.menuItem--submenu{
+  margin-left: 2rem !important;
+}
+
+.menuItem--submenu-footer{
+  margin-left: 10px;
+}
+
+.styledLinkContent--submenu-footer:hover{
+  border-bottom: solid #ffffff 1px;
+  transition: .3s;
+}

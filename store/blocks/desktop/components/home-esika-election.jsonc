@@ -1,0 +1,126 @@
+{
+    "flex-layout.row#esika-election": {
+      "children": [
+        "flex-layout.col#esika-election"
+      ]
+    },
+    "flex-layout.col#esika-election": {
+      "children": [
+        "responsive-layout.tablet#esika-election",
+        "flex-layout.row#esika-comillas-mobile",
+        "flex-layout.row#esika-comillas-paraghap",
+        "flex-layout.row#esika-comillas-guiones",
+        "responsive-layout.mobile#esika-election"
+      ]
+    },
+    "responsive-layout.desktop#esika-election": {
+      "children": [
+        "flex-layout.col#esika-election"
+      ]
+    },
+    "responsive-layout.tablet#esika-election": {
+      "children": [
+        "flex-layout.col#esika-election"
+      ]
+    },
+    "responsive-layout.mobile#esika-election": {
+      "children": [
+        "flex-layout.col#esika-election"
+      ]
+    },
+    "flex-layout.row#esika-election-desktop": {
+      "children": [
+        "flex-layout.col#esika-election-image",
+        "flex-layout.col#esika-election-text"
+      ]
+    },
+    
+    "flex-layout.row#esika-election-mobile": {
+      "children": [
+        "flex-layout.col#esika-election-text",
+        "flex-layout.col#esika-election-image"
+      ]
+    },
+    "flex-layout.col#esika-election-text": {
+      "children": [
+        "rich-text#election-text","rich-text#yoelijo-text","image#logo-esika-election"
+      ]
+    },
+    "rich-text#election-text": {
+        "title": "Párrafo election",
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "La marca que eligen millones de mujeres.",
+          "blockClass": "single__banner-text"
+        }
+      },
+      "rich-text#yoelijo-text": {
+        "title": "Párrafo #YOELIJOÉSIKA",
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "#YOELIJOÉSIKA",
+          "blockClass": "single__banner-yoeligo"
+        }
+      },
+    "flex-layout.col#esika-election-image": {
+      "children": [
+        "image#esika-election"
+      ]
+    },
+    "image#esika-election": {
+      "props": {
+        "src": "assets/img/home/yo-elijo-esika.png"
+      }
+    },
+    "image#logo-esika-election": {
+      "props": {
+        "src": "assets/img/home/logo-esika-home.png",
+        "blockClass": "single__banner-logo"
+      }
+    },
+    "flex-layout.row#esika-comillas-mobile": {
+        "children": [
+            "rich-text#comillas-text"
+        ]
+      }, 
+      "flex-layout.row#esika-comillas-paraghap": {
+        "children": [
+            "rich-text#comillas-text-1"
+        ]
+      },
+      "flex-layout.row#esika-comillas-guiones":{
+        "children": [
+            "rich-text#comillas-text-2"
+        ]
+      },
+    "rich-text#comillas-text": {
+        "title": "Párrafo comillas",
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "“",
+          "blockClass": "single__banner-comillas"
+        }
+      },      
+      "rich-text#comillas-text-1": {
+          "title": "Párrafo comillas",
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Los sueños se hacen realidad cuando dejamos de lado el miedo y tomamos las riendas de nuestras vidas.",
+            "blockClass": "single__banner-comillas-text"
+          }
+        },
+        "rich-text#comillas-text-2": {
+            "title": "Párrafo guiones",
+            "props": {
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER",
+              "text": "____________________________",
+              "blockClass": "single__banner-comillas"
+            }
+          }
+  }
+  

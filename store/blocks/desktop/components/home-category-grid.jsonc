@@ -1,0 +1,165 @@
+{
+    "flex-layout.row#category-grid": {
+        "title": "Grilla de categorías",
+        "children": [
+          "flex-layout.col#category-grid"
+        ]
+      },
+      "flex-layout.col#category-grid": {
+        "children": [
+          "rich-text#category-grid",
+          "responsive-layout.desktop#category-grid",
+          "responsive-layout.mobile#category-grid"
+        ]
+      },
+      "responsive-layout.desktop#category-grid": {
+        "title": "Desktop",
+        "children": [
+          "flex-layout.row#category-grid-desktop"
+        ]
+      },
+      "rich-text#category-grid": {
+        "title": "Título de Grilla",
+        "props": {
+          "text": "## Elige tu categoría ",
+          "blockClass": "grid-item-title"
+        }
+      },
+      "flex-layout.row#category-grid-desktop": {
+        "children": [
+          "flex-layout.col#category-grid-item-1",
+          "flex-layout.col#category-grid-item-2",
+          "flex-layout.col#category-grid-item-3",
+          "flex-layout.col#category-grid-item-4",
+          "flex-layout.col#category-grid-item-5"
+        ]
+      },
+    
+      "flex-layout.col#category-grid-item-1": {
+        "title": "Categoría 1",
+        "children": [
+          "image#grid-item-1",
+          "rich-text#grid-item-1"
+        ],
+        "props": {
+          "blockClass": ["grid-item", "grid-item-1"],
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-2": {
+        "title": "Categoría 2",
+        "children": [
+          "rich-text#grid-item-2",
+          "image#grid-item-2"
+        ],
+        "props": {
+          "blockClass": ["grid-item", "grid-item-2"],
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-3": {
+        "title": "Categoría 3",
+        "children": [
+          "image#grid-item-3",
+          "rich-text#grid-item-3"
+        ],
+        "props": {
+          "blockClass": ["grid-item", "grid-item-3"],
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-4": {
+        "title": "Categoría 4",
+        "children": [
+          "rich-text#grid-item-4",
+          "image#grid-item-4"
+        ],
+        "props": {
+          "blockClass": ["grid-item", "grid-item-4"],
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.col#category-grid-item-5": {
+        "title": "Categoría 5",
+        "children": [
+          "image#grid-item-5",
+          "rich-text#grid-item-5"
+        ],
+        "props": {
+          "blockClass": ["grid-item", "grid-item-5"],
+          "verticalAlign": "top",
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#test": {
+        "props": {
+          "text": "Testing"
+        }
+      },
+      "image#grid-item-1": {
+        "props": {
+          "src": "assets/img/home/category/maquillaje.jpg"
+        }
+      },
+      "image#grid-item-2": {
+        "props": {
+          "src": "assets/img/home/category/fragancias.jpg"
+        }
+      },"image#grid-item-3": {
+        "props": {
+          "src": "assets/img/home/category/tratamiento-facial.jpg"
+        }
+      },"image#grid-item-4": {
+        "props": {
+          "src": "assets/img/home/category/cuidado-personal.jpg"
+        }
+      },"image#grid-item-5": {
+        "props": {
+          "src": "assets/img/home/category/joyeria.jpg"
+        }
+      },
+      "rich-text#grid-item-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Maquillaje",
+          "blockClass": "grid-item-name"
+        }
+      },
+      "rich-text#grid-item-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Fragancias",
+          "blockClass": "grid-item-name"
+        }
+      },
+      "rich-text#grid-item-3": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Tratamiento\n**-** Facial",
+          "blockClass": "grid-item-name"
+        }
+      },
+      "rich-text#grid-item-4": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Cuidado\n**-** Personal",
+          "blockClass": "grid-item-name"
+        }
+      },
+      "rich-text#grid-item-5": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Joyería",
+          "blockClass": "grid-item-name"
+        }
+      }
+}

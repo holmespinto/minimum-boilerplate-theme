@@ -10,7 +10,7 @@
   },
   "header-row#0-desktop": {
     "children": [
-      "flex-layout.row#top-header-desktop3",
+      "flex-layout.row#top-header-desktop1",
       "flex-layout.row#top-header-desktop4"
     ],
     "props": {
@@ -31,10 +31,10 @@
       "horizontalAlign": "center"
     },
     "children": [
-      "rich-text#text-1"
+      "rich-text#top-header-text-1"
     ]
   },
-  "flex-layout.row#top-header-desktop3": {
+  "flex-layout.row#top-header-desktop1": {
     "title": "Logo Top header desktop sub",
     "props": {
       "blockClass": "main-header-desktop0",
@@ -42,18 +42,19 @@
       "horizontalAlign": "left"
     },
     "children": [
-     "image#desktop__brand0"
+     "image#desktop__brand-0"
     ]
   },
-  "image#desktop__brand0": {
+  "image#desktop__brand-0": {
     "props": {
       "blockClass": "main-header-desktop0",
       "src": "assets/icons/esika-big.svg",
       "maxWidth": 30,
-      "maxHeight": 18
+      "maxHeight": 18,
+      "url":"/"
     }
   },
-  "rich-text#text-1": {
+  "rich-text#top-header-text-1": {
     "props": {
       "text": "Compra a través de una **consulta online** >",
       "blockClass": "text1"
@@ -110,6 +111,7 @@
     "props": {
       "blockClass": "col-brand1",
       "horizontalAlign": "center"
+      
     },
     "children": [
       "image#desktop__brand1"
@@ -137,21 +139,33 @@
     "props": {
       "src": "assets/icons/esika-small.svg",
       "maxWidth": 50,
-      "maxHeight": 28
+      "maxHeight": 28,
+      "link": {
+        "url":"/",
+        "newTab": true
+      }
     }
   },
   "image#desktop__brand2": {
     "props": {
       "src": "assets/icons/lbel.svg",
       "maxWidth": 53,
-      "maxHeight": 12
+      "maxHeight": 12,
+      "link": {
+        "url":"/sobre-nosotros",
+        "newTab": true
+      }
     }
   },
   "image#desktop__brand3": {
     "props": {
       "src": "assets/icons/cyzone.svg",
       "maxWidth": 48,
-      "maxHeight": 15
+      "maxHeight": 15,
+      "link": {
+        "url":"/custom-grid",
+        "newTab": true
+      }
     }
   },
   "flex-layout.col#desktop__spacer": {

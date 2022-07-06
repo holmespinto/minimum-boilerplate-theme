@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#maquillador": {
+      "children": [
+        "flex-layout.col#maquillador"
+      ]
+    },
+    "flex-layout.col#maquillador": {
+      "children": [
+        "responsive-layout.desktop#maquillador",
+        "responsive-layout.tablet#maquillador",
+        "responsive-layout.phone#maquillador",
+        "rich-text#maquillador-text",
+        "link#maquillador-link"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "blockClass": "maquillador"
+      }
+    },
+    "responsive-layout.desktop#maquillador": {
+      "children": [
+        "flex-layout.row#maquillador-desktop"
+      ]
+    },
+    "responsive-layout.tablet#maquillador": {
+      "children": [
+        "flex-layout.row#maquillador-desktop"
+      ]
+    },
+    "responsive-layout.phone#maquillador": {
+      "children": [
+        "flex-layout.row#maquillador-mobile"
+      ]
+    },
+    "flex-layout.row#maquillador-desktop": {
+      "children": [
+        "flex-layout.col#maquillador-desktop"
+      ]
+    },
+    "flex-layout.col#maquillador-desktop": {
+      "children": [
+        "image#maquillador-desktop"
+      ],
+      "props": {
+        "horizontalAlign": "center"
+      }
+    },
+    "flex-layout.row#maquillador-mobile": {
+      "children": [
+        "flex-layout.col#maquillador-mobile"
+      ]
+    },
+    "flex-layout.col#maquillador-mobile": {
+      "children": [
+        "image#maquillador-mobile"
+      ],
+      "props": {
+        "horizontalAlign": "center"
+      }
+    },
+    "image#maquillador-desktop": {
+      "props": {
+        "src": "assets/img/home/maquillador-virtual-desktop.jpg",
+        "alt": "Maquillador Virtual"
+      }
+    },
+    "image#maquillador-mobile": {
+      "props": {
+        "src": "assets/img/home/maquillador-virtual-mobile.jpg",
+        "alt": "Maquillador Virtual"
+      }
+    },
+    "rich-text#maquillador-text": {
+      "title": "Párrafo Maquillador",
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Prueba cientos de tonos y encuentra tu favorito antes de realizar la compra.",
+        "blockClass": "maquillador"
+      }
+    },
+    "link#maquillador-link": {
+      "props": {
+        "href": "/",
+        "label": "Probar ahora",
+        "displayMode": "button"
+      }
+    }
+  }

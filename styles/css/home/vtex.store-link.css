@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column-reverse;
 }
-/* HOME BLOG Y CATALOGO  */
+
 
 .link--dualBanner{
   background-color: #000;
@@ -65,7 +65,7 @@
   }
 }
 
-/* MAQUILLADOR VIRTUAL */
+
 .link--makeup-bg-image-text{
   color: #FFF;
   background-color: #000;

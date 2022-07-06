@@ -1,0 +1,36 @@
+
+  {
+  "footer-row#footer-menu": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": ["flex-layout.row#footer-menu"]
+  },
+ 
+ 
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "flex-layout.col#footer-menu-1",
+      "flex-layout.col#footer-menu-2",
+      "flex-layout.col#footer-menu-3"
+    ]
+  },
+  //Nuestra Marcas
+  "flex-layout.col#footer-menu-1": {
+    "children": [
+      "menu#submenu__footer-nuestras-marcas"
+    ]
+  },
+   //Legal
+   "flex-layout.col#footer-menu-2": {
+    "children": [
+      "menu#submenu__footer-legal"
+    ]
+  },
+  //Contáctanos
+  "flex-layout.col#footer-menu-3": {
+   "children": [
+     "menu#submenu__footer-contactanos"
+   ]
+ }
+}

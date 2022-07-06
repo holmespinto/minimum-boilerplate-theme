@@ -51,6 +51,7 @@
   background-position-y: bottom 10px;
   background-repeat:no-repeat;
   background-color:#faf6f6;
+  display: flex;
 }
 .flexRowContent--top-header-mobile2 {
   display: flex;
