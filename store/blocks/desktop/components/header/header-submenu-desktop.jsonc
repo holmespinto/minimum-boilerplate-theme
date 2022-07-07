@@ -94,13 +94,13 @@
             "menu-item#maquillajes-1",
             "menu-item#maquillajes-2",
             "menu-item#maquillajes-3",
-            "flex-layout.row#maquillajes-4-1",
+            "flex-layout.row#maquillajes-4",
             //"flex-layout.row#maquillajes-4-2",
             
             "image#maquillajes-5"
         ]
     },
-    "flex-layout.row#maquillajes-4-1":{
+    "flex-layout.row#maquillajes-4":{
         "children": [
           "flex-layout.col#maquillajes--image-4"
         ]
