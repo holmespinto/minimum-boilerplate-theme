@@ -83,7 +83,8 @@
       "props": {
         "href": "/",
         "label": "Probar ahora",
-        "displayMode": "button"
+        "displayMode": "button",
+        "blockClass": "fundacion-title-9"
       }
     }
   }

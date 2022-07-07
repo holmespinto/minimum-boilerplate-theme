@@ -32,6 +32,43 @@
     left:450px;
     overflow: hidden;
 }
+.imageElement--imageFundacion{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 8;
+    margin:25px 25px 25px 25px;
+
+}
+.flexRowContent--rowFundacion{
+    background-color:rgb(246, 248, 245);
+    margin:20px 200px 40px 200px;
+}
+.flexRowContent--rowFundacion-2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: -4px;
+    margin-left: -210px;
+}
+.flexRowContent--rowFundacion-3{
+
+    margin:0px 0px 0px 5px;
+    left:4px;
+}
+.flexRowContent--rowFundacion-1{
+    align-items: center;
+    font-size: 0px;
+    padding: 0;
+    margin: 0;
+    left:4px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 

@@ -13,7 +13,8 @@
       //"list-context.bullet-group#global__bullets-slider"
       "flex-layout.row#esika-election",
       "flex-layout.row#esika-comillas-guion",
-      "flex-layout.row#esika-catalogo-online"
+      "flex-layout.row#esika-catalogo-online",
+      "flex-layout.row#esika-fundacion"
     ]
   },
   "rich-text#recommended": {

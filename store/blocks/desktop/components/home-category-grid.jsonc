@@ -95,11 +95,6 @@
           "preventVerticalStretch": true
         }
       },
-      "rich-text#test": {
-        "props": {
-          "text": "Testing"
-        }
-      },
       "image#grid-item-1": {
         "props": {
           "src": "assets/img/home/category/categoria-fragancias-esika-v02-mb-co.avif"

@@ -1,0 +1,151 @@
+{
+    "flex-layout.row#esika-fundacion":{
+        "children": [
+          "flex-layout.row#esika-fundacion-1",
+          "flex-layout.row#esika-fundacion-2"
+        ],
+        "props": {
+          "blockClass": "rowFundacion"
+        }
+      },
+      "flex-layout.row#esika-fundacion-1":{
+        "children": [
+          "flex-layout.col#esika-fundacion-1"
+          
+        ],
+        "props": {
+          "blockClass": "rowFundacion-1"
+        }
+      },
+     
+      "flex-layout.col#esika-fundacion-1":{
+        "children": [
+          "image#fundacion-item-1"
+        ]
+      },
+      "image#fundacion-item-1": {
+        "props": {
+          "src": "assets/img/home/belcorp-home.jpg",
+          "blockClass": "imageFundacion"
+        }
+      },
+      "flex-layout.row#esika-fundacion-2":{
+        "children": [
+          "flex-layout.col#esika-fundacion-2"
+          
+        ],
+        "props": {
+          "blockClass": "rowFundacion-2"
+        }
+      }, 
+      "flex-layout.col#esika-fundacion-2":{
+        "children": [
+          "rich-text#esika-fundacion-line",
+          "rich-text#esika-fundacion-title-1",
+          "rich-text#esika-fundacion-title-2",
+          "flex-layout.row#esika-fundacion-3"
+        ],
+        "props": {
+          "text": ".",
+          "blockClass": "rowFundacion-2"
+        }
+      },
+      "rich-text#esika-fundacion-line": {
+        "title": "Título Recomendados",
+        "props": {
+          "text": ".",
+          "blockClass": "fundacion-line"
+        }
+      },
+      "rich-text#esika-fundacion-title-1": {
+        "title": "Título fundación",
+        "props": {
+          "text": "Empoderamiento femenino",
+          "blockClass": "fundacion-title-0"
+        }
+      },
+      "rich-text#esika-fundacion-title-2": {
+        "title": "Título fundación",
+        "props": {
+          "text": "Fundación Belcorp",
+          "blockClass": "fundacion-title-2"
+        }
+      },
+      "rich-text#esika-fundacion-title-3": {
+        "title": "Título fundación",
+        "props": {
+          "text": "28 millones",
+          "blockClass": "fundacion-title-3"
+        }
+      },
+      "rich-text#esika-fundacion-title-4": {
+        "title": "Título fundación",
+        "props": {
+          "text": "de personas fueron impactadas por la campaña Mi Expresión, Mi Elección reconocida por ONU Mujeres.",
+          "blockClass": "fundacion-title-4"
+        }
+      },
+      "flex-layout.row#esika-fundacion-3":{
+        "children": [
+          "rich-text#esika-fundacion--3-line",
+          "rich-text#esika-fundacion--3-title-1",
+          "rich-text#esika-fundacion--3-title-2",
+          "rich-text#esika-fundacion--3-title-3",
+          "rich-text#esika-fundacion--3-title-4",
+          "rich-text#esika-fundacion--3-title-5",
+          "rich-text#esika-fundacion--3-title-6"
+        ],
+        "props": {
+          "blockClass": "rowFundacion-3"
+        }
+      },
+      "rich-text#esika-fundacion--3-line": {
+        "title": "Título uno",
+        "props": {
+          "text": "28 millones",
+          "blockClass": "fundacion-title-3"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-1": {
+        "title": "Título Dos",
+        "props": {
+          "text": "de personas fueron impactadas por la campaña Mi Expresión, Mi Elección reconocida por ONU Mujeres",
+          "blockClass": "fundacion-title-1"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-3": {
+        "title": "Título Dos",
+        "props": {
+          "text": "63%",
+          "blockClass": "fundacion-title-6"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-2": {
+        "title": "Título Dos",
+        "props": {
+          "text": "de los puestos científicos en Belcorp fueron ocupados por mujeres en el 2019.",
+          "blockClass": "fundacion-title-5"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-4": {
+        "title": "Título Dos",
+        "props": {
+          "text": "+35 mil",
+          "blockClass": "fundacion-title-7"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-5": {
+        "title": "Título Dos",
+        "props": {
+          "text": "mujeres han sido beneficiadas por los programas de nuestra Fundación Belcorp desde el 2003.",
+          "blockClass": "fundacion-title-8"
+        }
+      },
+      "rich-text#esika-fundacion--3-title-6": {
+        "title": "Título Dos",
+        "props": {
+          "text": "Conoces nuestras iniciativas",
+          "blockClass": "fundacion-title-9"
+        }
+      }  
+}

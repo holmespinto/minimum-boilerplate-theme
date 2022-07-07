@@ -90,7 +90,7 @@
 }
 .paragraph--buttonRight{
    display: flex;
-   font-family: "brownstd";
+   font-family: 'BrownStd', Helvetica, Arial, sans-serif;
    font-size: 2em !important;
    background-color:rgb(12, 11, 11);
    color: rgb(252, 247, 247);
@@ -104,3 +104,116 @@
    text-align:center;
    padding: 6px 6px 0px 10px;
 }
+.paragraph--fundacion-line {
+   border-bottom: 1px solid rgb(252, 13, 13);
+   color: rgb(252, 247, 247);
+   width: 100px;
+   margin-top:0px;
+   
+ }
+ .paragraph--fundacion-title-0 {
+   font-family: 'Helvetica';
+   font-size: 1em !important;
+   font-weight: bold;
+   margin-top:0px;
+   width: 300px;
+   line-height : 20px;
+   margin-left:0px;
+ }
+ .paragraph--fundacion-title-1{
+
+   font-size: 1em !important;
+   margin-top:25px;
+   width: 200px;
+   line-height : 20px;
+   margin-left:-60px;
+ }
+ .paragraph--fundacion-title-2{
+   font-family: 'BrownStd';
+   font-size: 3.5em !important;
+   font-weight: bold;
+   margin-top:-5px;
+   line-height : 50px;
+ }
+ .paragraph--fundacion-title-3{
+   font-family: 'BrownStd';
+   font-size: 2.5em !important;
+   font-weight: bold;
+   margin-top:-40px;
+   line-height : 25px;
+   margin-left:0px;
+ }
+ .paragraph--fundacion-title-4{
+   font-family: 'BrownStd';
+   font-size: 1em !important;
+   margin-top:-40px;
+   line-height :20px;
+   width: 200px;
+
+ }
+ .paragraph--fundacion-title-5{
+   font-size: 1em !important;
+   margin-top:25px;
+   line-height :20px;
+   width: 200px;
+   margin-left:90px;
+
+ }
+ .paragraph--fundacion-title-6{
+   font-family: 'BrownStd';
+   font-size: 2.5em !important;
+   font-weight: bold;
+   margin-top:-20px;
+   line-height : 25px;
+   margin-left:20px;
+ }
+ .paragraph--fundacion-title-7{
+   font-family: 'BrownStd';
+   font-size: 2.5em !important;
+   font-weight: bold;
+   margin-top:-20px;
+   line-height : 25px;
+   margin-left:190px;
+   width: 130px;
+ }
+ .paragraph--fundacion-title-9{
+   font-family: 'BrownStd';
+   align-items: center;
+   font-size: 1em !important;
+   font-weight: bold;
+   margin-top:-220px;
+   line-height : 60px;
+   width: 230px;
+   display: flex;
+   border: 1px solid rgb(0, 0, 0);
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   align-content: center;
+   cursor: pointer;
+    
+ }
+ .paragraph--fundacion-title-9:hover{
+   font-family: 'BrownStd';
+   color: rgb(251, 251, 251);
+   background-color: #000;
+   transition: .3s;
+   cursor: pointer;
+ }
+ .paragraph--fundacion-title-8{
+
+   font-size: 1em !important;
+   margin-top:25px;
+   width: 200px;
+   line-height : 20px;
+   margin-left:160px;
+ }
+ .paragraph--maquillador {
+   font-family: 'BrownStd';
+   align-items: center;
+   font-size: 1.3em !important;
+   font-weight: bold;
+   width: 400px;
+    
+ }
+ 

@@ -1,6 +1,7 @@
 {
     
     "flex-layout.row#esika-catalogo-online": {
+      "title": "Título de seccion del catátalogo online",
       "children": [
         "flex-layout.row#catalogo-grid-1",
         "flex-layout.row#bagraund-image",
@@ -108,9 +109,7 @@
           },
           "flex-layout.col#catalogo-grid": {
             "children": [
-              //"rich-text#catalogo-grid",
-              "responsive-layout.desktop#catalogo-grid"//,
-             // "responsive-layout.mobile#catalogo-grid"
+              "responsive-layout.desktop#catalogo-grid"
             ]
           },
           "responsive-layout.desktop#catalogo-grid": {
@@ -118,30 +117,17 @@
             "children": [
               "flex-layout.row#catalogo-grid-desktop"
             ]
-          }/*,
-          "rich-text#catalogo-grid": {
-            "title": "Título de Grilla",
-            "props": {
-              "text": "## Elige tu categoría ",
-              "blockClass": "grid-item-title-left"
-            }
-          }*/,
+          },
           "flex-layout.row#catalogo-grid-desktop": {
             "children": [
               "flex-layout.col#catalogo-grid-item-1",
               "flex-layout.col#catalogo-grid-item-2"//,
-              //"flex-layout.col#catalogo-grid-item-3"//,
-              //"flex-layout.col#catalogo-grid-item-4"//,
-             // "flex-layout.col#catalogo-grid-item-5"
             ]
           },
-        
           "flex-layout.col#catalogo-grid-item-1": {
             "title": "catalogo 1",
             "children": [
-              //"rich-text#grid-item-1",
-              "image#grid-item-1"
-              
+              "image#banner-item-1"
             ],
             "props": {
               "blockClass": ["grid-item-1","grid-item"],
@@ -152,118 +138,23 @@
           "flex-layout.col#catalogo-grid-item-2": {
             "title": "catalogo 2",
             "children": [
-              //"rich-text#grid-item-2",
-              "image#grid-item-2"
+              "image#banner-item-2"
             ],
             "props": {
               "blockClass": ["grid-item", "grid-item-2"],
               "verticalAlign": "top",
               "preventVerticalStretch": true
             }
-          }/*,
-          "flex-layout.col#catalogo-grid-item-3": {
-            "title": "catalogo 3",
-            "children": [
-              "image#grid-item-3",
-              "rich-text#grid-item-3"
-            ],
-            "props": {
-              "blockClass": ["grid-item", "grid-item-3"],
-              "verticalAlign": "top",
-              "preventVerticalStretch": true
-            }
           },
-          "flex-layout.col#catalogo-grid-item-4": {
-            "title": "catalogo 4",
-            "children": [
-              "rich-text#grid-item-4",
-              "image#grid-item-4"
-            ],
-            "props": {
-              "blockClass": ["grid-item", "grid-item-4"],
-              "verticalAlign": "top",
-              "preventVerticalStretch": true
-            }
-          },
-          "flex-layout.col#catalogo-grid-item-5": {
-            "title": "catalogo 5",
-            "children": [
-              "image#grid-item-5",
-              "rich-text#grid-item-5"
-            ],
-            "props": {
-              "blockClass": ["grid-item", "grid-item-5"],
-              "verticalAlign": "top",
-              "preventVerticalStretch": true
-            }
-          }*/,
-          "rich-text#test": {
-            "props": {
-              "text": "Testing"
-            }
-          },
-          "image#grid-item-1": {
+          "image#banner-item-1": {
             "props": {
               "src": "assets/img/home/banner-blog-v01-mb-co.jpg"
             }
           },
-          "image#grid-item-2": {
+          "image#banner-item-2": {
             "props": {
               "src": "assets/img/home/CATALOGO-736X916-202211-CO-V1.jpg"
               
             }
-          }/*,"image#grid-item-3": {
-            "props": {
-              "src": "assets/img/home/category/tratamiento-facial.jpg"
-            }
-          },"image#grid-item-4": {
-            "props": {
-              "src": "assets/img/home/category/cuidado-personal.jpg"
-            }
-          },"image#grid-item-5": {
-            "props": {
-              "src": "assets/img/home/category/joyeria.jpg"
-            }
-          },
-          "rich-text#grid-item-1": {
-            "props": {
-              "textAlignment": "CENTER",
-              "textPosition": "CENTER",
-              "text": "Maquillaje",
-              "blockClass": "grid-item-name"
-            }
-          },
-          "rich-text#grid-item-2": {
-            "props": {
-              "textAlignment": "CENTER",
-              "textPosition": "CENTER",
-              "text": "Fragancias",
-              "blockClass": "grid-item-name"
-            }
-          },
-          "rich-text#grid-item-3": {
-            "props": {
-              "textAlignment": "CENTER",
-              "textPosition": "CENTER",
-              "text": "Tratamiento\n**-** Facial",
-              "blockClass": "grid-item-name"
-            }
-          }/*,
-          "rich-text#grid-item-4": {
-            "props": {
-              "textAlignment": "CENTER",
-              "textPosition": "CENTER",
-              "text": "Cuidado\n**-** Personal",
-              "blockClass": "grid-item-name"
-            }
-          },
-          "rich-text#grid-item-5": {
-            "props": {
-              "textAlignment": "CENTER",
-              "textPosition": "CENTER",
-              "text": "Joyería",
-              "blockClass": "grid-item-name"
-            }
           }
-          */
     }

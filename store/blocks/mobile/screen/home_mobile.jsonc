@@ -3,15 +3,17 @@
     "title": "Responsive the content Mobile",
     "children": [
       "list-context.image-list#global__banner-slider",
+      "flex-layout.row#category-grid",
+      "rich-text#recommended",
       "flex-layout.row#global__product-slider--content",
-      "shelf.relatedProducts#global__product-related",
-      "responsive-layout.mobile#category-grid",
-           //"shelf.relatedProducts#global__product-related",
-           "flex-layout.row#maquillador",
-           //"flex-layout.row#shelf-home"
-           //"list-context.bullet-group#global__bullets-slider"
-           "flex-layout.row#esika-election",
-           "flex-layout.row#esika-catalogo-online"
+      //"shelf.relatedProducts#global__product-related",
+      "flex-layout.row#maquillador",
+      //"flex-layout.row#shelf-home"
+      //"list-context.bullet-group#global__bullets-slider"
+      "flex-layout.row#esika-election",
+      "flex-layout.row#esika-comillas-guion",
+      "flex-layout.row#esika-catalogo-online",
+      "flex-layout.row#esika-fundacion"
     ]
   }
 }
