@@ -103,7 +103,7 @@
   },
   "rich-text#desktop__header-text": {
     "props": {
-      "text": "Quiero ser consultora",
+      "text": "Quiero ser consultora |",
       "blockClass": "text-header"
     }
   },

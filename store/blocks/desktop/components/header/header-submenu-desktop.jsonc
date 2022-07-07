@@ -1,0 +1,489 @@
+{
+    "menu-item#favoritos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Favoritos",
+                "text": "Favoritos"
+            },
+            "blockClass": "submenu-header1"
+        }
+    },
+    "menu-item#sets": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sets",
+                "text": "Sets"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#sets"] // Defining a submenu
+    },
+    "submenu#sets": {
+        "children": [
+            "menu#submenusets"
+        ],
+        "props":{
+            "blockClass": "submenu-1"
+        }
+    },
+    "menu#submenusets": {
+        "children": [
+            "menu-item#submenusets-1",
+            "menu-item#submenusets-2"
+        ]
+    },
+    "menu-item#submenusets-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenusets-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": ""
+            }
+        }
+    },
+    //Maquillajes
+    "menu-item#maquillajes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Maquillajes",
+                "text": "Maquillajes"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#maquillajes"] // Defining a submenu
+    },
+    "submenu#maquillajes": {
+        "children": [
+            "menu#submenumaquillajes"
+        ]
+    },
+    "menu#submenumaquillajes": {
+        "children": [
+            "menu-item#maquillajes-1",
+            "menu-item#maquillajes-2",
+            "menu-item#maquillajes-3",
+            "flex-layout.row#maquillajes-4-1",
+            //"flex-layout.row#maquillajes-4-2",
+            
+            "image#maquillajes-5"
+        ]
+    },
+    "flex-layout.row#maquillajes-4-1":{
+        "children": [
+          "flex-layout.col#maquillajes--image-4"
+        ]
+      },
+      "flex-layout.row#maquillajes-4-2":{
+          "children": [
+            "flex-layout.col#maquillajes--text-4"
+          ]
+        },
+        "flex-layout.col#maquillajes--image-4":{
+        "children": [
+            "image#maquillajes-4"
+        ]
+      },
+      "flex-layout.col#maquillajes--text-4":{
+        "children": [
+            "rich-text#maquillajes-4"
+        ]
+      },
+    "image#maquillajes-4": {
+        "props": {
+          "src": "assets/img/menu/banner-colorfix-dk-co-mto-v02.avif",
+          "blockClass": "submenu-image"
+        }
+      },
+      "rich-text#maquillajes-4": {
+        "title": "Título imagen uno",
+        "props": {
+          "text": "Maquillaje Colorfix"//,
+          //"blockClass": "fundacion-line"
+        }
+      },
+      "image#maquillajes-5": {
+          "props": {
+            "src": "assets/img/menu/banner-esikapro-dk-co-mto-v02.avif",
+            "blockClass": "submenu-image"
+          }
+        },
+    "menu-item#maquillajes-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Rostro",
+                "text": "Rostro"
+            }
+        },
+        "children":[
+            "menu#maquillaje-polvos",
+            "menu#maquillaje-primer",
+            "menu#maquillaje-base"
+        ]
+    },
+    "menu-item#maquillajes-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ojos",
+                "text": "Ojos"
+            }
+        },
+        "children":[
+            "menu#Ojos-1",
+            "menu#Ojos-2"
+        ]
+    },
+    "menu-item#maquillajes-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Labios",
+                "text": "Labios"
+            }
+        },
+        "children":[
+            "menu#Labios-1"
+        ]
+    },
+    //PERFUMES
+    "menu-item#perfumes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Perfumes",
+                "text": "Perfumes"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#perfumes"] // Defining a submenu
+    },
+    "submenu#perfumes": {
+        "children": [
+            "menu#submenu-perfumes"
+        ]
+    },
+    "menu#submenu-perfumes": {
+        "children": [
+            "menu-item#submenu--perfumes-1",
+            "menu-item#submenu--perfumes-2",
+            "menu-item#submenu--perfumes-3"
+        ]
+    },
+    "menu-item#submenu--perfumes-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "menu-item#submenu--perfumes-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        }
+    },
+    "menu-item#submenu--perfumes-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Asesor de Perfumes",
+                "text": "Asesor de Perfumes"
+            }
+        }
+    },
+    //"Cuidado Personal"
+    "menu-item#CuidadoPersonal": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cuidado Personal",
+                "text": "Cuidado Personal"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#CuidadoPersonal"] // Defining a submenu
+    },
+    "submenu#CuidadoPersonal": {
+        "children": [
+            "menu#submenu-CuidadoPersonal"
+        ]
+    },
+    "menu#submenu-CuidadoPersonal": {
+        "children": [
+            "menu-item#submenu--CuidadoPersonal-1",
+            "menu-item#submenu--CuidadoPersonal-2",
+            "menu-item#submenu--CuidadoPersonal-3"
+        ]
+    },
+    "menu-item#submenu--CuidadoPersonal-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cuerpo",
+                "text": "Cuerpo"
+            }
+        }
+    },
+    "menu-item#submenu--CuidadoPersonal-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cabello",
+                "text": "Cabello"
+            }
+        }
+    },
+    "menu-item#submenu--CuidadoPersonal-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Niños y Bébes",
+                "text": "Niños y Bébes"
+            }
+        }
+    },
+    //Cuidado Piel
+    "menu-item#CuidadoPiel": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cuidado de la piel",
+                "text": "Cuidado de la piel"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#CuidadoPiel"] // Defining a submenu
+    },
+    "submenu#CuidadoPiel": {
+        "children": [
+            "menu#submenu-CuidadoPiel"
+        ]
+    },
+    "menu#submenu-CuidadoPiel": {
+        "children": [
+            "menu-item#submenu--CuidadoPiel-1",
+            "menu-item#submenu--CuidadoPiel-2",
+            "menu-item#submenu--CuidadoPiel-3"
+        ]
+    },
+    "menu-item#submenu--CuidadoPiel-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Oxygen Supreme",
+                "text": "Oxygen Supreme"
+            }
+        }
+    },
+    "menu-item#submenu--CuidadoPiel-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Limpiadoras y Demaquilladoras",
+                "text": "Limpiadoras y Demaquilladoras"
+            }
+        }
+    },
+    "menu-item#submenu--CuidadoPiel-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Hidratantes",
+                "text": "Hidratantes"
+            }
+        }
+    },
+    //Joyeria
+    "menu-item#Joyeria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Joyeria",
+                "text": "Joyeria"
+            },
+            "blockClass": "submenu-header1"
+        },
+        "blocks": ["submenu#Joyeria"] // Defining a submenu
+    },
+    "submenu#Joyeria": {
+        "children": [
+            "menu#submenu-Joyeria"
+        ]
+    },
+    "menu#submenu-Joyeria": {
+        "children": [
+            "menu-item#submenu--Joyeria-1",
+            "menu-item#submenu--Joyeria-2",
+            "menu-item#submenu--Joyeria-3"
+        ]
+    },
+    "menu-item#submenu--Joyeria-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lo nuevo",
+                "text": "Lo nuevo"
+            }
+        }
+    },
+    "menu-item#submenu--Joyeria-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "menu-item#submenu--Joyeria-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Favoritos",
+                "text": "Favoritos"
+            }
+        }
+    },
+    "menu-item#Blog": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Blog",
+                "text": "Blog"
+            },
+            "blockClass": "submenu-header1"
+        }
+    },
+    "menu-item#Ofertas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ofertas",
+                "text": "Ofertas"
+            },
+            "blockClass": "submenu-header1"
+        }
+    }
+}

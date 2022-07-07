@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#desktop-submenu1": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "submenu-header1",
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#favoritos",
+            "menu-item#sets",
+            "menu-item#maquillajes",
+            "menu-item#perfumes",
+            "menu-item#CuidadoPersonal",
+            "menu-item#CuidadoPiel",
+            "menu-item#Joyeria",
+            "menu-item#Blog",
+            "menu-item#Ofertas"
+               
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "menu#maquillaje-polvos": {
+      "children": [
+        "menu-item#maquillaje-polvos"
+      ],
+      "props":{
+          "blockClass": "submenu-1"
+      }
+    },
+    "menu-item#maquillaje-polvos": {
+      "props": {
+        "id": "menu-item-1",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Polvos",
+          "text": "Polvos"
+        }
+      }
+  },
+  "menu#maquillaje-primer": {
+    "children": [
+      "menu-item#maquillaje-primer"
+    ],
+    "props":{
+        "blockClass": "submenu-1"
+    }
+  },
+  "menu-item#maquillaje-primer": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Primer",
+        "text": "Primer"
+      }
+    }
+},
+"menu#maquillaje-base": {
+  "children": [
+    "menu-item#maquillaje-base"
+  ],
+  "props":{
+      "blockClass": "submenu-1"
+  }
+},
+"menu-item#maquillaje-base": {
+  "props": {
+    "id": "menu-item-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": false,
+      "tagTitle": "Base",
+      "text": "Base"
+    }
+  }
+},
+"menu#Ojos-1": {
+    "children": [
+      "menu-item#Ojos-1"
+    ],
+    "props":{
+        "blockClass": "submenu-1"
+    }
+  },
+  "menu-item#Ojos-1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Accesorios de Maquillaje",
+        "text": "Accesorios de Maquillaje"
+      }
+    }
+},
+"menu#Ojos-2": {
+    "children": [
+      "menu-item#Ojos-2"
+    ],
+    "props":{
+        "blockClass": "submenu-1"
+    }
+  },
+  "menu-item#Ojos-2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Paleta Personalizable",
+        "text": "Paleta Personalizable"
+      }
+    }
+},
+"menu#Labios-1": {
+    "children": [
+      "menu-item#Labios-1"
+    ],
+    "props":{
+        "blockClass": "submenu-1"
+    }
+  },
+  "menu-item#Labios-1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Sub Marca",
+        "text": "Sub Marca"
+      }
+    }
+}
+}
+  

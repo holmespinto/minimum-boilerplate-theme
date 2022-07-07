@@ -1,0 +1,11 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu#submenu-header-mobile"
+      ]
+    }
+  }
+  

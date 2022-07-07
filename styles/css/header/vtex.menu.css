@@ -1,25 +1,41 @@
 .styledLinkContent--submenu-header1{
   font-weight: 400;
-  font-size: 14px;
   line-height: 20px;
   transition: border .3s;
   border-bottom: solid transparent 3px;
+  width:100%;
+  font-family: "brownstd";
+  font-size: 1em !important;
+  
 }
 
 .menuItem--submenu{
   margin-left: 2rem !important;
+  
 }
 
 .menuItem--submenu-header1{
   margin-left: 10px;
+ 
 }
 
 .styledLinkContent--submenu-header1:hover{
   border-bottom: solid #db3b30 3px;
   transition: .3s;
+  
 }
-
-
+.menuContainer--submenu-1{
+  line-height: 5ex;
+  display: block;
+}
+.menuContainer--submenu-1:hover {
+  display: block;
+  line-height: 5ex;
+  background-color: transparent;
+  color:#dc2b1e !important;
+  transition: .3s;
+  border-bottom: solid #db3b30 1px;
+}
 .styledLinkContent--submenu-footer{
   font-weight: 400;
   font-size: 14px;
@@ -27,17 +43,36 @@
   transition: border .3s;
   border-bottom: solid transparent 3px;
   color: #fff;
+ 
 }
 
 .menuItem--submenu{
   margin-left: 2rem !important;
+  
 }
 
 .menuItem--submenu-footer{
   margin-left: 10px;
+  
 }
 
 .styledLinkContent--submenu-footer:hover{
   border-bottom: solid #ffffff 1px;
   transition: .3s;
+  
+}
+.submenuWrapper--isOpen {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  background: #f6f2f2;
+  flex-grow: 1;
+  flex-basis: 33.333333%;
+  padding: 15px 0 0;
+  border-bottom: solid #ffffff 1px;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid #b0b0b0;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
+  left: 0!important;
+  width: 890px;
 }

@@ -80,7 +80,7 @@
     "rich-text#catalogo-button-title-right": {
       "title": "Button de Grilla izquierda",
       "props": {
-        "text": "ver catálogo",
+        "text": "Ver catálogo",
         "blockClass": "buttonRight"
       }
     }, 
