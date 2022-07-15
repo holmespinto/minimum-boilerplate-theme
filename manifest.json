@@ -68,7 +68,9 @@
     "itgloberspartnercl.bullets-diagramation": "0.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.add-to-cart-info": "0.x",
-    "itgloberspartnercl.special-diagramation": "0.x"
+    "itgloberspartnercl.special-diagramation": "0.x",
+    "itgloberspartnercl.termometro-compras": "0.x",
+    "itgloberspartnercl.contador-ofertas": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
