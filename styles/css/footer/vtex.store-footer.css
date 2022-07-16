@@ -1,7 +1,10 @@
 .row {
   background-color: black;
+  
 }
+
 .rowContainer--footerMenuDesktop {
+  display: flex; 
   justify-content: center;
 }
 .row--footerMenu :global(.vtex-store-components-3-x-container) {

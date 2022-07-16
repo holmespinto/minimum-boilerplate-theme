@@ -5,7 +5,8 @@
       "header-row#1-desktop",
       "header-row#2-desktop",
       "header-row#3-desktop",
-      "header-row#5-desktop"
+      "header-row#5-desktop",
+      "header-row#6-desktop"
     ]
   },
   "header-row#0-desktop": {
@@ -238,5 +239,11 @@
       "text": "¡Envío Gratis por + $60,000!",
       "blockClass": "text2"
     }
+  },
+  "header-row#6-desktop": {
+    "title": "Contador de ofertas header ",
+    "children": [
+      "contador-ofertas"
+    ]
   }
 }

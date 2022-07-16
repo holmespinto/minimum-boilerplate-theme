@@ -78,3 +78,9 @@
 .flexRowContent--header-rigth {
   margin-left: 100px;
 }
+.flexRow--top-header-desktop5{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center !important;
+ 
+}

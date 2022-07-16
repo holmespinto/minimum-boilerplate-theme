@@ -2,6 +2,9 @@
   width: 100%;
 }
 
+.sliderLayoutContainer--banner-slider__content{
+  margin-top: 29px;
+}
 .paginationDotsContainer--banner-slider__content {
   bottom: 30px;
 }
